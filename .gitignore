@@ -1,0 +1,13 @@
+.DS_Store
+.idea/*
+DLC/*
+Assets/Dependencies/JEngine/Core/.idea/*
+.idea/*
+HotUpdateScripts/.vs/*
+Library/*
+Temp/*
+obj/*
+*.csproj
+UnityProject.sln
+HotUpdateScripts/obj/*
+ProjectSettings/*

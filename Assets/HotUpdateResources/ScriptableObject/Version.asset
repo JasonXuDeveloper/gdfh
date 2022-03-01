@@ -1,0 +1,19 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 070c9b8891f644a1a98923ef7c3d04c0, type: 3}
+  m_Name: Version
+  m_EditorClassIdentifier: 
+  versionName: 0.5
+  content: "<size=30><color=red>\u300C\u809D\u5230\u53D1\u614C\u300F</color></size>\u7B2C\u4E09\u4E2Aapk\u53D1\u5E03\u4E86\uFF0C\u8BF7\u5404\u4F4D\u73A9\u5BB6\u5230taptap\u66F4\u65B0\u65B0\u5305\u5BF9\u6E38\u620F\u8FDB\u884C\u66F4\u65B0\uFF0C\u611F\u8C22\u6240\u6709\u73A9\u5BB6\u5BF9\u672C\u6E38\u620F\u7684\u652F\u6301\uFF01\n\n\u672C\u6B21\u66F4\u65B0\u5185\u5BB9\uFF1A\n\n<size=30><color=orange>\u300C\u5C0F\u5077\u306E\u81EA\u6211\u4FEE\u517B\u300D</color></size>
+    \u2014\u2014 \u5C0F\u5077\u8FD9\u51E0\u5929\u5B66\u4F1A\u4E86\u5982\u4F55\u5077\u4EA7\u4E1A\n<size=30><color=green>\u300C\u5361\u987F\u306E\u4E0D\u8F9E\u800C\u522B\u300D</color></size>
+    \u2014\u2014 \u5927\u5E45\u5EA6\u4F18\u5316\u5361\u987F~"
+  forceUpdate: 1

@@ -1,0 +1,1892 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7882bd278763c45f49cef7deeae496e5, type: 3}
+  m_Name: Manifest
+  m_EditorClassIdentifier: 
+  activeVariants: []
+  assets:
+  - bundle: 3
+    dir: 0
+    name: ShowFade.controller
+  - bundle: 1
+    dir: 1
+    name: DoSpin.controller
+  - bundle: 47
+    dir: 2
+    name: AwardShowPanel.controller
+  - bundle: 35
+    dir: 3
+    name: TipsPanel.controller
+  - bundle: 23
+    dir: 4
+    name: Red.controller
+  - bundle: 54
+    dir: 5
+    name: HotUpdateScripts.bytes
+  - bundle: 40
+    dir: 6
+    name: bgm.mp3
+  - bundle: 53
+    dir: 6
+    name: impact.ttf
+  - bundle: 17
+    dir: 7
+    name: AwardPanel.prefab
+  - bundle: 33
+    dir: 7
+    name: BagPanel.prefab
+  - bundle: 13
+    dir: 7
+    name: EventPanel.prefab
+  - bundle: 46
+    dir: 7
+    name: GalleryItem.prefab
+  - bundle: 28
+    dir: 7
+    name: LoginPanel.prefab
+  - bundle: 8
+    dir: 7
+    name: PropertyPanel.prefab
+  - bundle: 6
+    dir: 7
+    name: RankPanel.prefab
+  - bundle: 11
+    dir: 7
+    name: TaskPanel.prefab
+  - bundle: 45
+    dir: 8
+    name: Game.unity
+  - bundle: 4
+    dir: 9
+    name: Version.asset
+  - bundle: 18
+    dir: 10
+    name: Localization.csv
+  - bundle: 57
+    dir: 10
+    name: prop_cfg.json
+  - bundle: 21
+    dir: 10
+    name: property_cfg.json
+  - bundle: 10
+    dir: 10
+    name: task_cfg.json
+  - bundle: 55
+    dir: 10
+    name: task_desc.json
+  - bundle: 41
+    dir: 11
+    name: outline_basic.png
+  - bundle: 41
+    dir: 11
+    name: outline_basic_down.png
+  - bundle: 41
+    dir: 11
+    name: outline_basic_hover.png
+  - bundle: 41
+    dir: 11
+    name: outline_basic_inactive.png
+  - bundle: 52
+    dir: 12
+    name: outline_corner.png
+  - bundle: 52
+    dir: 12
+    name: outline_corner_down.png
+  - bundle: 52
+    dir: 12
+    name: outline_corner_hover.png
+  - bundle: 52
+    dir: 12
+    name: outline_corner_inactive.png
+  - bundle: 42
+    dir: 13
+    name: outline_corners.png
+  - bundle: 42
+    dir: 13
+    name: outline_corners_down.png
+  - bundle: 42
+    dir: 13
+    name: outline_corners_hover.png
+  - bundle: 42
+    dir: 13
+    name: outline_corners_inactive.png
+  - bundle: 32
+    dir: 14
+    name: button_basic.png
+  - bundle: 32
+    dir: 14
+    name: button_corner.png
+  - bundle: 32
+    dir: 14
+    name: button_corners.png
+  - bundle: 27
+    dir: 15
+    name: button_l.png
+  - bundle: 27
+    dir: 15
+    name: button_m.png
+  - bundle: 27
+    dir: 15
+    name: button_r.png
+  - bundle: 19
+    dir: 16
+    name: scroll_handle_h.png
+  - bundle: 19
+    dir: 16
+    name: scroll_handle_v.png
+  - bundle: 19
+    dir: 16
+    name: slider_handle.png
+  - bundle: 19
+    dir: 16
+    name: switch_off.png
+  - bundle: 19
+    dir: 16
+    name: switch_on.png
+  - bundle: 19
+    dir: 16
+    name: toggle_on.png
+  - bundle: 7
+    dir: 17
+    name: globe_bg.png
+  - bundle: 7
+    dir: 17
+    name: globe_fill.png
+  - bundle: 9
+    dir: 18
+    name: bottom_bar_bg.png
+  - bundle: 9
+    dir: 18
+    name: chat_cloud_l.png
+  - bundle: 9
+    dir: 18
+    name: chat_cloud_r.png
+  - bundle: 9
+    dir: 18
+    name: corner_bg.png
+  - bundle: 9
+    dir: 18
+    name: input_field.png
+  - bundle: 9
+    dir: 18
+    name: input_field_filled.png
+  - bundle: 9
+    dir: 18
+    name: section_bg.png
+  - bundle: 9
+    dir: 18
+    name: section_outline.png
+  - bundle: 9
+    dir: 18
+    name: side_bar_bg.png
+  - bundle: 9
+    dir: 18
+    name: title_bar.png
+  - bundle: 9
+    dir: 18
+    name: top_bar_bg.png
+  - bundle: 9
+    dir: 18
+    name: window_bg.png
+  - bundle: 9
+    dir: 18
+    name: window_bg_white.png
+  - bundle: 9
+    dir: 18
+    name: window_stroke.png
+  - bundle: 9
+    dir: 18
+    name: "window_\xD7.png"
+  - bundle: 43
+    dir: 19
+    name: fill.png
+  - bundle: 43
+    dir: 19
+    name: state_bar.png
+  - bundle: 43
+    dir: 19
+    name: state_bar_2.png
+  - bundle: 5
+    dir: 20
+    name: button_basic.png
+  - bundle: 5
+    dir: 20
+    name: button_corner.png
+  - bundle: 5
+    dir: 20
+    name: button_corners.png
+  - bundle: 39
+    dir: 21
+    name: button_outline_basic.png
+  - bundle: 39
+    dir: 21
+    name: button_outline_basic_down.png
+  - bundle: 39
+    dir: 21
+    name: button_outline_basic_hover.png
+  - bundle: 39
+    dir: 21
+    name: button_outline_basic_inactive.png
+  - bundle: 48
+    dir: 22
+    name: button_outline_corner.png
+  - bundle: 48
+    dir: 22
+    name: button_outline_corner_down.png
+  - bundle: 48
+    dir: 22
+    name: button_outline_corner_hover.png
+  - bundle: 48
+    dir: 22
+    name: button_outline_corner_inactive.png
+  - bundle: 0
+    dir: 23
+    name: button_outline.png
+  - bundle: 0
+    dir: 23
+    name: button_outline_disabled.png
+  - bundle: 0
+    dir: 23
+    name: button_outline_down.png
+  - bundle: 0
+    dir: 23
+    name: button_outline_flip.png
+  - bundle: 0
+    dir: 23
+    name: button_outline_flip_disabled.png
+  - bundle: 0
+    dir: 23
+    name: button_outline_flip_down.png
+  - bundle: 0
+    dir: 23
+    name: button_outline_flip_hover.png
+  - bundle: 0
+    dir: 23
+    name: button_outline_hover.png
+  - bundle: 20
+    dir: 24
+    name: button_l.png
+  - bundle: 20
+    dir: 24
+    name: button_m.png
+  - bundle: 20
+    dir: 24
+    name: button_r.png
+  - bundle: 31
+    dir: 25
+    name: scroll_handle.png
+  - bundle: 31
+    dir: 25
+    name: scroll_handle_v.png
+  - bundle: 12
+    dir: 26
+    name: slider_handle.png
+  - bundle: 16
+    dir: 27
+    name: switch_off.png
+  - bundle: 16
+    dir: 27
+    name: switch_off_text.png
+  - bundle: 16
+    dir: 27
+    name: switch_on.png
+  - bundle: 16
+    dir: 27
+    name: switch_on_text.png
+  - bundle: 49
+    dir: 28
+    name: toggle_radio.png
+  - bundle: 37
+    dir: 29
+    name: globe_bg.png
+  - bundle: 37
+    dir: 29
+    name: globe_fill.png
+  - bundle: 51
+    dir: 30
+    name: air.png
+  - bundle: 51
+    dir: 30
+    name: arrow_d.png
+  - bundle: 51
+    dir: 30
+    name: arrow_l.png
+  - bundle: 51
+    dir: 30
+    name: arrow_r.png
+  - bundle: 51
+    dir: 30
+    name: arrow_u.png
+  - bundle: 51
+    dir: 30
+    name: basket.png
+  - bundle: 51
+    dir: 30
+    name: bin.png
+  - bundle: 51
+    dir: 30
+    name: checkmark.png
+  - bundle: 51
+    dir: 30
+    name: chest.png
+  - bundle: 51
+    dir: 30
+    name: coins.png
+  - bundle: 51
+    dir: 30
+    name: cup.png
+  - bundle: 51
+    dir: 30
+    name: dots.png
+  - bundle: 51
+    dir: 30
+    name: drop.png
+  - bundle: 51
+    dir: 30
+    name: exclamation.png
+  - bundle: 51
+    dir: 30
+    name: flame.png
+  - bundle: 51
+    dir: 30
+    name: gem.png
+  - bundle: 51
+    dir: 30
+    name: heart.png
+  - bundle: 51
+    dir: 30
+    name: heart_plus.png
+  - bundle: 51
+    dir: 30
+    name: info.png
+  - bundle: 51
+    dir: 30
+    name: lightning.png
+  - bundle: 51
+    dir: 30
+    name: lock_01.png
+  - bundle: 51
+    dir: 30
+    name: lock_02.png
+  - bundle: 51
+    dir: 30
+    name: medal.png
+  - bundle: 51
+    dir: 30
+    name: menu.png
+  - bundle: 51
+    dir: 30
+    name: minus.png
+  - bundle: 51
+    dir: 30
+    name: pause.png
+  - bundle: 51
+    dir: 30
+    name: play.png
+  - bundle: 51
+    dir: 30
+    name: plus.png
+  - bundle: 51
+    dir: 30
+    name: repeat.png
+  - bundle: 51
+    dir: 30
+    name: settings.png
+  - bundle: 51
+    dir: 30
+    name: snow.png
+  - bundle: 51
+    dir: 30
+    name: speaker_low.png
+  - bundle: 51
+    dir: 30
+    name: stats.png
+  - bundle: 51
+    dir: 30
+    name: strength.png
+  - bundle: 51
+    dir: 30
+    name: surprise.png
+  - bundle: 51
+    dir: 30
+    name: swords.png
+  - bundle: 51
+    dir: 30
+    name: x.png
+  - bundle: 36
+    dir: 31
+    name: air.png
+  - bundle: 36
+    dir: 31
+    name: arrow_d.png
+  - bundle: 36
+    dir: 31
+    name: arrow_l.png
+  - bundle: 36
+    dir: 31
+    name: arrow_r.png
+  - bundle: 36
+    dir: 31
+    name: arrow_u.png
+  - bundle: 36
+    dir: 31
+    name: basket.png
+  - bundle: 36
+    dir: 31
+    name: bin.png
+  - bundle: 36
+    dir: 31
+    name: checkmark.png
+  - bundle: 36
+    dir: 31
+    name: chest.png
+  - bundle: 36
+    dir: 31
+    name: coin_plus.png
+  - bundle: 36
+    dir: 31
+    name: coins.png
+  - bundle: 36
+    dir: 31
+    name: cup.png
+  - bundle: 36
+    dir: 31
+    name: dots.png
+  - bundle: 36
+    dir: 31
+    name: drop.png
+  - bundle: 36
+    dir: 31
+    name: exclamation.png
+  - bundle: 36
+    dir: 31
+    name: flame.png
+  - bundle: 36
+    dir: 31
+    name: gem.png
+  - bundle: 36
+    dir: 31
+    name: heart.png
+  - bundle: 36
+    dir: 31
+    name: heart_plus.png
+  - bundle: 36
+    dir: 31
+    name: help.png
+  - bundle: 36
+    dir: 31
+    name: home.png
+  - bundle: 36
+    dir: 31
+    name: info.png
+  - bundle: 36
+    dir: 31
+    name: leaf.png
+  - bundle: 36
+    dir: 31
+    name: lightning.png
+  - bundle: 36
+    dir: 31
+    name: lock_01.png
+  - bundle: 36
+    dir: 31
+    name: lock_02.png
+  - bundle: 36
+    dir: 31
+    name: medal.png
+  - bundle: 36
+    dir: 31
+    name: menu.png
+  - bundle: 36
+    dir: 31
+    name: minus.png
+  - bundle: 36
+    dir: 31
+    name: pause.png
+  - bundle: 36
+    dir: 31
+    name: play.png
+  - bundle: 36
+    dir: 31
+    name: plus.png
+  - bundle: 36
+    dir: 31
+    name: repeat.png
+  - bundle: 36
+    dir: 31
+    name: settings.png
+  - bundle: 36
+    dir: 31
+    name: snow.png
+  - bundle: 36
+    dir: 31
+    name: speaker_high.png
+  - bundle: 36
+    dir: 31
+    name: speaker_low.png
+  - bundle: 36
+    dir: 31
+    name: speaker_mute.png
+  - bundle: 36
+    dir: 31
+    name: star.png
+  - bundle: 36
+    dir: 31
+    name: stats.png
+  - bundle: 36
+    dir: 31
+    name: strength.png
+  - bundle: 36
+    dir: 31
+    name: suprise.png
+  - bundle: 36
+    dir: 31
+    name: swords.png
+  - bundle: 36
+    dir: 31
+    name: user.png
+  - bundle: 36
+    dir: 31
+    name: x.png
+  - bundle: 24
+    dir: 32
+    name: air.png
+  - bundle: 24
+    dir: 32
+    name: arrow_d.png
+  - bundle: 24
+    dir: 32
+    name: arrow_l.png
+  - bundle: 24
+    dir: 32
+    name: arrow_r.png
+  - bundle: 24
+    dir: 32
+    name: arrow_u.png
+  - bundle: 24
+    dir: 32
+    name: basket.png
+  - bundle: 24
+    dir: 32
+    name: bin.png
+  - bundle: 24
+    dir: 32
+    name: checkmark.png
+  - bundle: 24
+    dir: 32
+    name: chest.png
+  - bundle: 24
+    dir: 32
+    name: coin_plus.png
+  - bundle: 24
+    dir: 32
+    name: coins.png
+  - bundle: 24
+    dir: 32
+    name: cup.png
+  - bundle: 24
+    dir: 32
+    name: dots.png
+  - bundle: 24
+    dir: 32
+    name: drop.png
+  - bundle: 24
+    dir: 32
+    name: exclamation.png
+  - bundle: 24
+    dir: 32
+    name: flame.png
+  - bundle: 24
+    dir: 32
+    name: gem.png
+  - bundle: 24
+    dir: 32
+    name: heart.png
+  - bundle: 24
+    dir: 32
+    name: heart_plus.png
+  - bundle: 24
+    dir: 32
+    name: help.png
+  - bundle: 24
+    dir: 32
+    name: home.png
+  - bundle: 24
+    dir: 32
+    name: info.png
+  - bundle: 24
+    dir: 32
+    name: leaf.png
+  - bundle: 24
+    dir: 32
+    name: lightning.png
+  - bundle: 24
+    dir: 32
+    name: lock_01.png
+  - bundle: 24
+    dir: 32
+    name: lock_02.png
+  - bundle: 24
+    dir: 32
+    name: medal.png
+  - bundle: 24
+    dir: 32
+    name: menu.png
+  - bundle: 24
+    dir: 32
+    name: minus.png
+  - bundle: 24
+    dir: 32
+    name: pause.png
+  - bundle: 24
+    dir: 32
+    name: play.png
+  - bundle: 24
+    dir: 32
+    name: plus.png
+  - bundle: 24
+    dir: 32
+    name: repeat.png
+  - bundle: 24
+    dir: 32
+    name: settings.png
+  - bundle: 24
+    dir: 32
+    name: snow.png
+  - bundle: 24
+    dir: 32
+    name: speaker_high.png
+  - bundle: 24
+    dir: 32
+    name: speaker_low.png
+  - bundle: 24
+    dir: 32
+    name: speaker_mute.png
+  - bundle: 24
+    dir: 32
+    name: star.png
+  - bundle: 24
+    dir: 32
+    name: stats.png
+  - bundle: 24
+    dir: 32
+    name: strength.png
+  - bundle: 24
+    dir: 32
+    name: surprise.png
+  - bundle: 24
+    dir: 32
+    name: swords.png
+  - bundle: 24
+    dir: 32
+    name: user.png
+  - bundle: 24
+    dir: 32
+    name: x.png
+  - bundle: 58
+    dir: 33
+    name: air.png
+  - bundle: 58
+    dir: 33
+    name: arrow_d.png
+  - bundle: 58
+    dir: 33
+    name: arrow_l.png
+  - bundle: 58
+    dir: 33
+    name: arrow_r.png
+  - bundle: 58
+    dir: 33
+    name: arrow_u.png
+  - bundle: 58
+    dir: 33
+    name: basket.png
+  - bundle: 58
+    dir: 33
+    name: bin.png
+  - bundle: 58
+    dir: 33
+    name: checkmark.png
+  - bundle: 58
+    dir: 33
+    name: chest.png
+  - bundle: 58
+    dir: 33
+    name: coin_plus.png
+  - bundle: 58
+    dir: 33
+    name: cup.png
+  - bundle: 58
+    dir: 33
+    name: dots.png
+  - bundle: 58
+    dir: 33
+    name: drop.png
+  - bundle: 58
+    dir: 33
+    name: exclamation.png
+  - bundle: 58
+    dir: 33
+    name: flame.png
+  - bundle: 58
+    dir: 33
+    name: gem.png
+  - bundle: 58
+    dir: 33
+    name: heart.png
+  - bundle: 58
+    dir: 33
+    name: heart_plus.png
+  - bundle: 58
+    dir: 33
+    name: help.png
+  - bundle: 58
+    dir: 33
+    name: home.png
+  - bundle: 58
+    dir: 33
+    name: info.png
+  - bundle: 58
+    dir: 33
+    name: leaf.png
+  - bundle: 58
+    dir: 33
+    name: lightning.png
+  - bundle: 58
+    dir: 33
+    name: lock_02.png
+  - bundle: 58
+    dir: 33
+    name: medal.png
+  - bundle: 58
+    dir: 33
+    name: menu.png
+  - bundle: 58
+    dir: 33
+    name: minus.png
+  - bundle: 58
+    dir: 33
+    name: pause.png
+  - bundle: 58
+    dir: 33
+    name: play.png
+  - bundle: 58
+    dir: 33
+    name: plus.png
+  - bundle: 58
+    dir: 33
+    name: repeat.png
+  - bundle: 58
+    dir: 33
+    name: settings.png
+  - bundle: 58
+    dir: 33
+    name: snow.png
+  - bundle: 58
+    dir: 33
+    name: speaker_high.png
+  - bundle: 58
+    dir: 33
+    name: speaker_low.png
+  - bundle: 58
+    dir: 33
+    name: speaker_mute.png
+  - bundle: 58
+    dir: 33
+    name: star.png
+  - bundle: 58
+    dir: 33
+    name: stats.png
+  - bundle: 58
+    dir: 33
+    name: strength.png
+  - bundle: 58
+    dir: 33
+    name: surprise.png
+  - bundle: 58
+    dir: 33
+    name: swords.png
+  - bundle: 58
+    dir: 33
+    name: user.png
+  - bundle: 58
+    dir: 33
+    name: x.png
+  - bundle: 56
+    dir: 34
+    name: Untitled-1_21.png
+  - bundle: 56
+    dir: 34
+    name: Untitled-1_22.png
+  - bundle: 56
+    dir: 34
+    name: Untitled-1_23.png
+  - bundle: 56
+    dir: 34
+    name: ammunition.png
+  - bundle: 56
+    dir: 34
+    name: arrows.png
+  - bundle: 56
+    dir: 34
+    name: ax.png
+  - bundle: 56
+    dir: 34
+    name: ax_double.png
+  - bundle: 56
+    dir: 34
+    name: backpack.png
+  - bundle: 56
+    dir: 34
+    name: bones.png
+  - bundle: 56
+    dir: 34
+    name: boots.png
+  - bundle: 56
+    dir: 34
+    name: bow.png
+  - bundle: 56
+    dir: 34
+    name: chest.png
+  - bundle: 56
+    dir: 34
+    name: clock.png
+  - bundle: 56
+    dir: 34
+    name: dog_tag.png
+  - bundle: 56
+    dir: 34
+    name: dynamite.png
+  - bundle: 56
+    dir: 34
+    name: flag.png
+  - bundle: 56
+    dir: 34
+    name: gloves.png
+  - bundle: 56
+    dir: 34
+    name: goggles.png
+  - bundle: 56
+    dir: 34
+    name: gun.png
+  - bundle: 56
+    dir: 34
+    name: hammer.png
+  - bundle: 56
+    dir: 34
+    name: helmet.png
+  - bundle: 56
+    dir: 34
+    name: key.png
+  - bundle: 56
+    dir: 34
+    name: magnet.png
+  - bundle: 56
+    dir: 34
+    name: pill.png
+  - bundle: 56
+    dir: 34
+    name: potion_01.png
+  - bundle: 56
+    dir: 34
+    name: potion_02.png
+  - bundle: 56
+    dir: 34
+    name: potion_03.png
+  - bundle: 56
+    dir: 34
+    name: potion_04.png
+  - bundle: 56
+    dir: 34
+    name: potion_05.png
+  - bundle: 56
+    dir: 34
+    name: potion_06.png
+  - bundle: 56
+    dir: 34
+    name: potion_air.png
+  - bundle: 56
+    dir: 34
+    name: potion_flame.png
+  - bundle: 56
+    dir: 34
+    name: potion_life.png
+  - bundle: 56
+    dir: 34
+    name: potion_lightning.png
+  - bundle: 56
+    dir: 34
+    name: potion_shield.png
+  - bundle: 56
+    dir: 34
+    name: potion_snow.png
+  - bundle: 56
+    dir: 34
+    name: potion_strength.png
+  - bundle: 56
+    dir: 34
+    name: potion_water.png
+  - bundle: 56
+    dir: 34
+    name: quiver.png
+  - bundle: 56
+    dir: 34
+    name: radio.png
+  - bundle: 56
+    dir: 34
+    name: shield_01.png
+  - bundle: 56
+    dir: 34
+    name: shield_02.png
+  - bundle: 56
+    dir: 34
+    name: shield_air.png
+  - bundle: 56
+    dir: 34
+    name: shield_fire.png
+  - bundle: 56
+    dir: 34
+    name: shield_leaf.png
+  - bundle: 56
+    dir: 34
+    name: shield_lightning.png
+  - bundle: 56
+    dir: 34
+    name: shield_snow.png
+  - bundle: 56
+    dir: 34
+    name: shield_water.png
+  - bundle: 56
+    dir: 34
+    name: skull.png
+  - bundle: 56
+    dir: 34
+    name: slingshot.png
+  - bundle: 56
+    dir: 34
+    name: slingshot_ammunition.png
+  - bundle: 56
+    dir: 34
+    name: sword.png
+  - bundle: 2
+    dir: 35
+    name: ammunition.png
+  - bundle: 2
+    dir: 35
+    name: arrows.png
+  - bundle: 2
+    dir: 35
+    name: ax.png
+  - bundle: 2
+    dir: 35
+    name: ax_double.png
+  - bundle: 2
+    dir: 35
+    name: backpack.png
+  - bundle: 2
+    dir: 35
+    name: bones.png
+  - bundle: 2
+    dir: 35
+    name: boots.png
+  - bundle: 2
+    dir: 35
+    name: bow.png
+  - bundle: 2
+    dir: 35
+    name: chest.png
+  - bundle: 2
+    dir: 35
+    name: clock.png
+  - bundle: 2
+    dir: 35
+    name: dog_tag.png
+  - bundle: 2
+    dir: 35
+    name: dynamite.png
+  - bundle: 2
+    dir: 35
+    name: gloves.png
+  - bundle: 2
+    dir: 35
+    name: goggles.png
+  - bundle: 2
+    dir: 35
+    name: gun.png
+  - bundle: 2
+    dir: 35
+    name: hammer.png
+  - bundle: 2
+    dir: 35
+    name: helmet.png
+  - bundle: 2
+    dir: 35
+    name: key.png
+  - bundle: 2
+    dir: 35
+    name: magnet.png
+  - bundle: 2
+    dir: 35
+    name: pill.png
+  - bundle: 2
+    dir: 35
+    name: potion_01.png
+  - bundle: 2
+    dir: 35
+    name: potion_02.png
+  - bundle: 2
+    dir: 35
+    name: potion_03.png
+  - bundle: 2
+    dir: 35
+    name: potion_04.png
+  - bundle: 2
+    dir: 35
+    name: potion_05.png
+  - bundle: 2
+    dir: 35
+    name: potion_06.png
+  - bundle: 2
+    dir: 35
+    name: potion_air.png
+  - bundle: 2
+    dir: 35
+    name: potion_flame.png
+  - bundle: 2
+    dir: 35
+    name: potion_life.png
+  - bundle: 2
+    dir: 35
+    name: potion_lightning.png
+  - bundle: 2
+    dir: 35
+    name: potion_shield.png
+  - bundle: 2
+    dir: 35
+    name: potion_snow.png
+  - bundle: 2
+    dir: 35
+    name: potion_strength.png
+  - bundle: 2
+    dir: 35
+    name: potion_water.png
+  - bundle: 2
+    dir: 35
+    name: quiver.png
+  - bundle: 2
+    dir: 35
+    name: radio.png
+  - bundle: 2
+    dir: 35
+    name: shield_01.png
+  - bundle: 2
+    dir: 35
+    name: shield_02.png
+  - bundle: 2
+    dir: 35
+    name: shield_air.png
+  - bundle: 2
+    dir: 35
+    name: shield_fire.png
+  - bundle: 2
+    dir: 35
+    name: shield_leaf.png
+  - bundle: 2
+    dir: 35
+    name: shield_lightning.png
+  - bundle: 2
+    dir: 35
+    name: shield_snow.png
+  - bundle: 2
+    dir: 35
+    name: shield_water.png
+  - bundle: 2
+    dir: 35
+    name: skull.png
+  - bundle: 2
+    dir: 35
+    name: slingshot.png
+  - bundle: 2
+    dir: 35
+    name: slingshot_ammunition.png
+  - bundle: 2
+    dir: 35
+    name: sword.png
+  - bundle: 15
+    dir: 36
+    name: ammunition.png
+  - bundle: 15
+    dir: 36
+    name: arrows.png
+  - bundle: 15
+    dir: 36
+    name: ax.png
+  - bundle: 15
+    dir: 36
+    name: ax_double.png
+  - bundle: 15
+    dir: 36
+    name: backpack.png
+  - bundle: 15
+    dir: 36
+    name: bones.png
+  - bundle: 15
+    dir: 36
+    name: boots.png
+  - bundle: 15
+    dir: 36
+    name: bow.png
+  - bundle: 15
+    dir: 36
+    name: chest.png
+  - bundle: 15
+    dir: 36
+    name: clock.png
+  - bundle: 15
+    dir: 36
+    name: dog_tag.png
+  - bundle: 15
+    dir: 36
+    name: dynamite.png
+  - bundle: 15
+    dir: 36
+    name: flag.png
+  - bundle: 15
+    dir: 36
+    name: gloves.png
+  - bundle: 15
+    dir: 36
+    name: goggles.png
+  - bundle: 15
+    dir: 36
+    name: gun.png
+  - bundle: 15
+    dir: 36
+    name: hammer.png
+  - bundle: 15
+    dir: 36
+    name: helmet.png
+  - bundle: 15
+    dir: 36
+    name: key.png
+  - bundle: 15
+    dir: 36
+    name: magnet.png
+  - bundle: 15
+    dir: 36
+    name: pill.png
+  - bundle: 15
+    dir: 36
+    name: potion_01.png
+  - bundle: 15
+    dir: 36
+    name: potion_02.png
+  - bundle: 15
+    dir: 36
+    name: potion_03.png
+  - bundle: 15
+    dir: 36
+    name: potion_04.png
+  - bundle: 15
+    dir: 36
+    name: potion_05.png
+  - bundle: 15
+    dir: 36
+    name: potion_06.png
+  - bundle: 15
+    dir: 36
+    name: potion_air.png
+  - bundle: 15
+    dir: 36
+    name: potion_flame.png
+  - bundle: 15
+    dir: 36
+    name: potion_life.png
+  - bundle: 15
+    dir: 36
+    name: potion_lightning.png
+  - bundle: 15
+    dir: 36
+    name: potion_shield.png
+  - bundle: 15
+    dir: 36
+    name: potion_snow.png
+  - bundle: 15
+    dir: 36
+    name: potion_strength.png
+  - bundle: 15
+    dir: 36
+    name: potion_water.png
+  - bundle: 15
+    dir: 36
+    name: quiver.png
+  - bundle: 15
+    dir: 36
+    name: radio.png
+  - bundle: 15
+    dir: 36
+    name: shield_01.png
+  - bundle: 15
+    dir: 36
+    name: shield_02.png
+  - bundle: 15
+    dir: 36
+    name: shield_air.png
+  - bundle: 15
+    dir: 36
+    name: shield_fire.png
+  - bundle: 15
+    dir: 36
+    name: shield_leaf.png
+  - bundle: 15
+    dir: 36
+    name: shield_lightning.png
+  - bundle: 15
+    dir: 36
+    name: shield_snow.png
+  - bundle: 15
+    dir: 36
+    name: shield_water.png
+  - bundle: 15
+    dir: 36
+    name: skull.png
+  - bundle: 15
+    dir: 36
+    name: slingshot.png
+  - bundle: 15
+    dir: 36
+    name: slingshot_ammunition.png
+  - bundle: 15
+    dir: 36
+    name: sword.png
+  - bundle: 44
+    dir: 37
+    name: ammunition.png
+  - bundle: 44
+    dir: 37
+    name: arrows.png
+  - bundle: 44
+    dir: 37
+    name: ax.png
+  - bundle: 44
+    dir: 37
+    name: ax_double.png
+  - bundle: 44
+    dir: 37
+    name: backpack.png
+  - bundle: 44
+    dir: 37
+    name: bones.png
+  - bundle: 44
+    dir: 37
+    name: boots.png
+  - bundle: 44
+    dir: 37
+    name: bow.png
+  - bundle: 44
+    dir: 37
+    name: chest.png
+  - bundle: 44
+    dir: 37
+    name: clock.png
+  - bundle: 44
+    dir: 37
+    name: dog_tag.png
+  - bundle: 44
+    dir: 37
+    name: dynamite.png
+  - bundle: 44
+    dir: 37
+    name: flag.png
+  - bundle: 44
+    dir: 37
+    name: gloves.png
+  - bundle: 44
+    dir: 37
+    name: goggles.png
+  - bundle: 44
+    dir: 37
+    name: gun.png
+  - bundle: 44
+    dir: 37
+    name: hammer.png
+  - bundle: 44
+    dir: 37
+    name: helmet.png
+  - bundle: 44
+    dir: 37
+    name: key.png
+  - bundle: 44
+    dir: 37
+    name: magnet.png
+  - bundle: 44
+    dir: 37
+    name: pill.png
+  - bundle: 44
+    dir: 37
+    name: potion_01.png
+  - bundle: 44
+    dir: 37
+    name: potion_02.png
+  - bundle: 44
+    dir: 37
+    name: potion_03.png
+  - bundle: 44
+    dir: 37
+    name: potion_04.png
+  - bundle: 44
+    dir: 37
+    name: potion_05.png
+  - bundle: 44
+    dir: 37
+    name: potion_06.png
+  - bundle: 44
+    dir: 37
+    name: potion_air.png
+  - bundle: 44
+    dir: 37
+    name: potion_flame.png
+  - bundle: 44
+    dir: 37
+    name: potion_life.png
+  - bundle: 44
+    dir: 37
+    name: potion_lightning.png
+  - bundle: 44
+    dir: 37
+    name: potion_shield.png
+  - bundle: 44
+    dir: 37
+    name: potion_snow.png
+  - bundle: 44
+    dir: 37
+    name: potion_strength.png
+  - bundle: 44
+    dir: 37
+    name: potion_water.png
+  - bundle: 44
+    dir: 37
+    name: quiver.png
+  - bundle: 44
+    dir: 37
+    name: radio.png
+  - bundle: 44
+    dir: 37
+    name: shield_01.png
+  - bundle: 44
+    dir: 37
+    name: shield_02.png
+  - bundle: 44
+    dir: 37
+    name: shield_air.png
+  - bundle: 44
+    dir: 37
+    name: shield_fire.png
+  - bundle: 44
+    dir: 37
+    name: shield_leaf.png
+  - bundle: 44
+    dir: 37
+    name: shield_lightning.png
+  - bundle: 44
+    dir: 37
+    name: shield_snow.png
+  - bundle: 44
+    dir: 37
+    name: shield_water.png
+  - bundle: 44
+    dir: 37
+    name: skull.png
+  - bundle: 44
+    dir: 37
+    name: slingshot.png
+  - bundle: 44
+    dir: 37
+    name: slingshot_ammunition.png
+  - bundle: 44
+    dir: 37
+    name: sword.png
+  - bundle: 22
+    dir: 38
+    name: levels_star.png
+  - bundle: 22
+    dir: 38
+    name: skull_n_bones.png
+  - bundle: 30
+    dir: 39
+    name: avatar_s.png
+  - bundle: 30
+    dir: 39
+    name: bottom_bar_bg.png
+  - bundle: 30
+    dir: 39
+    name: chat_cloud_l.png
+  - bundle: 30
+    dir: 39
+    name: chat_cloud_r.png
+  - bundle: 30
+    dir: 39
+    name: corners_bg.png
+  - bundle: 30
+    dir: 39
+    name: corners_stroke_bg.png
+  - bundle: 30
+    dir: 39
+    name: input_field.png
+  - bundle: 30
+    dir: 39
+    name: input_field_filled.png
+  - bundle: 30
+    dir: 39
+    name: rectangle_bg.png
+  - bundle: 30
+    dir: 39
+    name: rectangle_stroke_bg.png
+  - bundle: 30
+    dir: 39
+    name: section_bg_corner.png
+  - bundle: 30
+    dir: 39
+    name: side_bar.png
+  - bundle: 30
+    dir: 39
+    name: title_bg.png
+  - bundle: 30
+    dir: 39
+    name: top_bar_bg.png
+  - bundle: 30
+    dir: 39
+    name: top_bar_bg_white.png
+  - bundle: 30
+    dir: 39
+    name: window_bg.png
+  - bundle: 30
+    dir: 39
+    name: window_stroke.png
+  - bundle: 30
+    dir: 39
+    name: window_x.png
+  - bundle: 34
+    dir: 40
+    name: progress_bar_fill.png
+  - bundle: 34
+    dir: 40
+    name: state_bar.png
+  - bundle: 34
+    dir: 40
+    name: state_bar_r.png
+  - bundle: 14
+    dir: 41
+    name: cert.png
+  - bundle: 14
+    dir: 41
+    name: cert_frag.png
+  - bundle: 14
+    dir: 41
+    name: coin.png
+  - bundle: 14
+    dir: 41
+    name: coin_plus.png
+  - bundle: 14
+    dir: 41
+    name: flag.png
+  - bundle: 14
+    dir: 41
+    name: home.png
+  - bundle: 14
+    dir: 41
+    name: off.png
+  - bundle: 14
+    dir: 41
+    name: on.png
+  - bundle: 14
+    dir: 41
+    name: people.png
+  - bundle: 14
+    dir: 41
+    name: speaker_high.png
+  - bundle: 14
+    dir: 41
+    name: speaker_mute.png
+  - bundle: 14
+    dir: 41
+    name: star.png
+  - bundle: 14
+    dir: 41
+    name: thief.png
+  - bundle: 14
+    dir: 41
+    name: unknown.png
+  - bundle: 14
+    dir: 41
+    name: zhi.png
+  - bundle: 14
+    dir: 41
+    name: zhu.png
+  - bundle: 29
+    dir: 42
+    name: btn.png
+  - bundle: 29
+    dir: 42
+    name: caidai.png
+  - bundle: 29
+    dir: 42
+    name: close.png
+  - bundle: 29
+    dir: 42
+    name: frame.png
+  - bundle: 29
+    dir: 42
+    name: head.png
+  - bundle: 29
+    dir: 42
+    name: line.png
+  bundles:
+  - deps: 
+    hash: 67228accae01f83cb19126aa088e6103
+    id: 0
+    len: 6805
+    name: 02f05d6ab451f5fd256c269663ed27a2.unity3d
+  - deps: 1a000000
+    hash: 257d1e23c346d8657e589637e35d8002
+    id: 1
+    len: 4717
+    name: 0c7fb679572a32c9759dbecd846dbe73.unity3d
+  - deps: 
+    hash: 3afd2ecdec33f135241332ae5f8816e4
+    id: 2
+    len: 151977
+    name: 0d74160a27bf8271b34804a5ae2fec10.unity3d
+  - deps: 19000000
+    hash: 3f0f66f43b5d226a2fb0c74b5ebae531
+    id: 3
+    len: 4712
+    name: 169c8689b98cb20d39489c1c3de9b970.unity3d
+  - deps: 
+    hash: 598acd447c1645976986558d7d67bdb4
+    id: 4
+    len: 2207
+    name: 2b816807df25e121dbbd3a5004da29e7.unity3d
+  - deps: 
+    hash: 8ffeb229425f5e9556976cd4cc37aae9
+    id: 5
+    len: 4996
+    name: 2cc9c29f7980294709e4d42f715fcda2.unity3d
+  - deps: 090000001d0000001e000000200000002400000033000000
+    hash: 341b87cdc11cdcdc66b666637dc700c5
+    id: 6
+    len: 16595
+    name: 337ea0523d8d715576143401c16e5a78.unity3d
+  - deps: 
+    hash: 2662e2d0954219385fb49cf3db8b1d02
+    id: 7
+    len: 10963
+    name: 37fa80fca78a9804f3ec4c015d911f78.unity3d
+  - deps: 00000000090000000e000000170000001d0000001e000000200000002400000026000000330000003a000000
+    hash: d22b4553ff9633b559a187d4a7d9f2ba
+    id: 8
+    len: 37563
+    name: 4389473da541c9f21c36a0f7815a0308.unity3d
+  - deps: 
+    hash: 9528719c8d1b394bf2aef796def53168
+    id: 9
+    len: 59683
+    name: 48e766ef38031d33c9ae4d2e07915996.unity3d
+  - deps: 
+    hash: 5d5afb60811b532d1336ec5a9bc82b21
+    id: 10
+    len: 4971
+    name: 4b8a8c448e47343b827e56435df72857.unity3d
+  - deps: 090000000e000000140000001d0000001e00000020000000
+    hash: dfc7c96cafbe9bbeab790a53cc45e5c2
+    id: 11
+    len: 15677
+    name: 4f0c80d1be4814004d40d543790bce62.unity3d
+  - deps: 
+    hash: f73b2699496b81968b499ac58c10ae51
+    id: 12
+    len: 4020
+    name: 4ff79004846c100b7b7b8cdc76ae75a8.unity3d
+  - deps: 030000000900000018000000190000001e0000002000000025000000
+    hash: 90515d98764a4a74e7427c46c45de1d5
+    id: 13
+    len: 13807
+    name: 51b7885a0f864e4880495cb6925dfab7.unity3d
+  - deps: 
+    hash: eeec31e7690dd8ed06933b2a57394d29
+    id: 14
+    len: 190592
+    name: 51cb3bc3f3fcf3763518ab86c35b1f2a.unity3d
+  - deps: 
+    hash: 2233ea6ac22fa2f90e8a6d5bba814190
+    id: 15
+    len: 23613
+    name: 523f3420ee7c70b9f3744323efe56252.unity3d
+  - deps: 
+    hash: 4caf8485ddfa2d9aa31616676031666e
+    id: 16
+    len: 5467
+    name: 58ef5e884d533b878a71c7a22d36c9c9.unity3d
+  - deps: 090000002f00000032000000
+    hash: 7ac967eff3ed4af184cba078de43c46a
+    id: 17
+    len: 7489
+    name: 5ee6f503422d0d30f35ab0cbfbf4e25c.unity3d
+  - deps: 
+    hash: 3e1d26f5f5de3b06ae5b64f8e96a3486
+    id: 18
+    len: 1267
+    name: 6409362d6eb671d168aa187271cd33a8.unity3d
+  - deps: 
+    hash: 9c8679e57893a174fb2747c6c914f1c8
+    id: 19
+    len: 7508
+    name: 648692058fb7c7343e0a7690e20f2c89.unity3d
+  - deps: 
+    hash: 179671b75999f06e44b8d87c1975b339
+    id: 20
+    len: 5524
+    name: 6646188f99b8296d6934892a81ce5158.unity3d
+  - deps: 
+    hash: 51fbff6628f898ba398f19deb6d8e53c
+    id: 21
+    len: 2400
+    name: 67154bae314776974bfe617c8f68aa77.unity3d
+  - deps: 
+    hash: dbe7c081b6043536afc1b438c97c904a
+    id: 22
+    len: 9277
+    name: 68855be8bf84934712bd7f59f93e54cc.unity3d
+  - deps: 26000000
+    hash: 64b644626a3fc1b1aabb81cbd45b869d
+    id: 23
+    len: 4699
+    name: 6c921d0e616edb457035dc5b23252486.unity3d
+  - deps: 
+    hash: 001cdbaccb9e1822869a3674f96e6319
+    id: 24
+    len: 23578
+    name: 6dfd9be4ad103945910a07c10295cbb2.unity3d
+  - deps: 
+    hash: a0e56d33a8cd82037008192d99cfaa67
+    id: 25
+    len: 6601
+    name: 6e872f262144fcc61ce067d5b2f9d8f8.unity3d
+  - deps: 
+    hash: 7d162a13d5d4658518403d498fab4109
+    id: 26
+    len: 6050
+    name: 6ede3a887dbfd8efd66974eca6b74e03.unity3d
+  - deps: 
+    hash: 77bbf46d93e7503bf4d173409c092cf5
+    id: 27
+    len: 6255
+    name: 711a6270333a6068db63ad5d49edbddc.unity3d
+  - deps: 0900000020000000
+    hash: 25248cad4635025ad7e1f8ca41fd0f7a
+    id: 28
+    len: 13047
+    name: 78ca619e8d1082e054849e0c24cf7201.unity3d
+  - deps: 
+    hash: 603075643c78f35cb7d7b153f068e494
+    id: 29
+    len: 33298
+    name: 7d5951ecb315719f03f6a6f3a0a7b6b4.unity3d
+  - deps: 
+    hash: b8ebc60eaac7e7dfc9e330580e459489
+    id: 30
+    len: 28721
+    name: 8175ff1e2f781c4edb03501655593530.unity3d
+  - deps: 
+    hash: 0cbea2f7c0e61f3cd829a0eacedf8113
+    id: 31
+    len: 4264
+    name: 8754bb6cd64554508dd823bb3fdde600.unity3d
+  - deps: 
+    hash: cd6e9a693a3a9e768b2f343b2bd3ebdf
+    id: 32
+    len: 5389
+    name: 8a96daf57f6189729ab4ec336f2f6195.unity3d
+  - deps: 030000000900000018000000190000001d0000001e000000200000002400000025000000
+    hash: f5b29535e7c87ba4b8079992731c6f77
+    id: 33
+    len: 17620
+    name: 9cd2650c400662c672fb85854e5c09f5.unity3d
+  - deps: 
+    hash: fde2472fbbbeb0cc6c3b606e295f784e
+    id: 34
+    len: 5129
+    name: a2c4c949736272ee722bf5d504d16402.unity3d
+  - deps: 
+    hash: 9b06d83861f7c7529a4db44024fc6c41
+    id: 35
+    len: 9311
+    name: a7bbe57dc96f2ca4228e47389320034a.unity3d
+  - deps: 
+    hash: 0ccc80f61e86260ce50f3b1a4c7948c6
+    id: 36
+    len: 117402
+    name: aadccb7da80c313c4105eea4404b9883.unity3d
+  - deps: 
+    hash: f58ee8c12a4e253a33744ede39457721
+    id: 37
+    len: 7165
+    name: b0eace940408ea5017fc0a55f2ae6aae.unity3d
+  - deps: 
+    hash: a4b6621d0e1fc7f88b2ee9a523d90013
+    id: 38
+    len: 6530
+    name: b495ae307f0481db4ed8385c4973967b.unity3d
+  - deps: 
+    hash: 0bc6c9361cfd692095a126921dd7e784
+    id: 39
+    len: 5157
+    name: b8fa3978c612a3157e2dae62fb7fc487.unity3d
+  - deps: 
+    hash: 1fdcac4ed86c38dcedc65605a6f97ad6
+    id: 40
+    len: 1374534
+    name: bc76c5b00ec9222f12185d8675be35c1.unity3d
+  - deps: 
+    hash: 1ea042fc31b50b83cd80d19eb427abc9
+    id: 41
+    len: 5148
+    name: bf0b116501de462535f9d0dac0b966bc.unity3d
+  - deps: 
+    hash: 4a5b695e7bc786608201ca55f616d961
+    id: 42
+    len: 5978
+    name: c5d69c02c7d9f28296b662c24fdf97a5.unity3d
+  - deps: 
+    hash: 07b2fd204447f1287be9035220d3ea2a
+    id: 43
+    len: 6885
+    name: ce1616646d6870996d26e15c3b2c06d9.unity3d
+  - deps: 
+    hash: 8cbe4f3d581cce9d25ea34c7bbaaad27
+    id: 44
+    len: 40378
+    name: ce4b13f954ae192361bb8874a7883380.unity3d
+  - deps: 0100000003000000050000000900000018000000190000001a0000001e00000025000000280000003a000000
+    hash: e45e020000e0080ef016389f23e25871
+    id: 45
+    len: 18269
+    name: ceddc0c9b3c8bf92a5649c7282074eed.unity3d
+  - deps: 09000000
+    hash: 07d01712228b892cf310c5afaead1fba
+    id: 46
+    len: 5524
+    name: d7d828e75795eb65d458856147bd7d79.unity3d
+  - deps: 32000000
+    hash: 0cc47b2a1f009d681ed6e86f926fd488
+    id: 47
+    len: 4723
+    name: d921fb60d76cf5d2781768d2ffb406e6.unity3d
+  - deps: 
+    hash: 7008999485ae106d60d5c01f6291b575
+    id: 48
+    len: 5632
+    name: d9ed2416e35e8839f55423e79631909a.unity3d
+  - deps: 
+    hash: b12726e9d3c19c5afc50903b9cc71aef
+    id: 49
+    len: 3977
+    name: e606b743ae4212ea2976d17e10e9d20d.unity3d
+  - deps: 
+    hash: 6824cc74898e68ffddf8cef799776341
+    id: 50
+    len: 6074
+    name: ecf90fcdf6065e8c0f3390728b5d6451.unity3d
+  - deps: 
+    hash: d7a9e001f35d0251d5567be172db43f1
+    id: 51
+    len: 50778
+    name: ed07346addd01fc45e46a4401fef2608.unity3d
+  - deps: 
+    hash: 7dd84d6d818457d8ea306391f3b99113
+    id: 52
+    len: 5828
+    name: eedaffdf515e4cd1026022c3da1bbcf4.unity3d
+  - deps: 
+    hash: f3ad4e9f9f9f4a13498bc9a8bffa8027
+    id: 53
+    len: 129519
+    name: f027f62d736f2b9930b079d86f3b90c2.unity3d
+  - deps: 
+    hash: 015c1dc1a4c0407cbca9751ae876cc30
+    id: 54
+    len: 166865
+    name: f1e9148d33abaae32bb165f217c22e91.unity3d
+  - deps: 
+    hash: 1f85c54afe51ad63874d8d0b97cfdafa
+    id: 55
+    len: 2061
+    name: f2863909cb4d99e3e29a67c1e7d3a4ca.unity3d
+  - deps: 
+    hash: 6b5e0a8e91e60f7a76b06b30f6c43a0b
+    id: 56
+    len: 77331
+    name: f5a0b51f4b850bdab88bc1789337d9f8.unity3d
+  - deps: 
+    hash: f09636772317e340402110479ab2a27e
+    id: 57
+    len: 1629
+    name: f88f702ad9cbd4af390b55805ebbb8e5.unity3d
+  - deps: 
+    hash: 80de0b8c92119e1070ce6f2e3a183860
+    id: 58
+    len: 36106
+    name: fa1e65f4283d521087bd003a4a996871.unity3d
+  dirs:
+  - Assets/HotUpdateResources/Controller/Animations/Effects/Fade
+  - Assets/HotUpdateResources/Controller/Animations/Effects/Spin
+  - Assets/HotUpdateResources/Controller/Animations/Panels/Award
+  - Assets/HotUpdateResources/Controller/Animations/Panels/Tips
+  - Assets/HotUpdateResources/Controller/Animations/Red
+  - Assets/HotUpdateResources/Dll
+  - Assets/HotUpdateResources/Other
+  - Assets/HotUpdateResources/Prefab
+  - Assets/HotUpdateResources/Scene
+  - Assets/HotUpdateResources/ScriptableObject
+  - Assets/HotUpdateResources/TextAsset
+  - Assets/HotUpdateResources/UI/HONETi/additional_sizes/buttons/outline_buttons/basic
+  - Assets/HotUpdateResources/UI/HONETi/additional_sizes/buttons/outline_buttons/corner
+  - Assets/HotUpdateResources/UI/HONETi/additional_sizes/buttons/outline_buttons/corners
+  - Assets/HotUpdateResources/UI/HONETi/additional_sizes/buttons/regular_buttons
+  - Assets/HotUpdateResources/UI/HONETi/additional_sizes/buttons/top_bar_buttons
+  - Assets/HotUpdateResources/UI/HONETi/additional_sizes/controls
+  - Assets/HotUpdateResources/UI/HONETi/additional_sizes/globe
+  - Assets/HotUpdateResources/UI/HONETi/additional_sizes/panels
+  - Assets/HotUpdateResources/UI/HONETi/additional_sizes/state_bars
+  - Assets/HotUpdateResources/UI/HONETi/buttons
+  - Assets/HotUpdateResources/UI/HONETi/buttons/outline_buttons/basic
+  - Assets/HotUpdateResources/UI/HONETi/buttons/outline_buttons/corner
+  - Assets/HotUpdateResources/UI/HONETi/buttons/outline_buttons/corners
+  - Assets/HotUpdateResources/UI/HONETi/buttons/top_bar_buttons
+  - Assets/HotUpdateResources/UI/HONETi/controls/scroll_bar
+  - Assets/HotUpdateResources/UI/HONETi/controls/slider
+  - Assets/HotUpdateResources/UI/HONETi/controls/switch
+  - Assets/HotUpdateResources/UI/HONETi/controls/toggle
+  - Assets/HotUpdateResources/UI/HONETi/globe
+  - Assets/HotUpdateResources/UI/HONETi/icons/128x128px
+  - Assets/HotUpdateResources/UI/HONETi/icons/256x256px
+  - Assets/HotUpdateResources/UI/HONETi/icons/32x32px
+  - Assets/HotUpdateResources/UI/HONETi/icons/64x64px
+  - Assets/HotUpdateResources/UI/HONETi/items/128x128px
+  - Assets/HotUpdateResources/UI/HONETi/items/256x256px
+  - Assets/HotUpdateResources/UI/HONETi/items/32x32px
+  - Assets/HotUpdateResources/UI/HONETi/items/64x64px
+  - Assets/HotUpdateResources/UI/HONETi/levels
+  - Assets/HotUpdateResources/UI/HONETi/panels
+  - Assets/HotUpdateResources/UI/HONETi/state_bars
+  - Assets/HotUpdateResources/UI/Sprites
+  - Assets/HotUpdateResources/UI/Textures

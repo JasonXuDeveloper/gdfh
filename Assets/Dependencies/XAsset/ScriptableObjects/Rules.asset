@@ -1,0 +1,1713 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 03142c330ced64e0ab46cddcd0484ab7, type: 3}
+  m_Name: Rules
+  m_EditorClassIdentifier: 
+  version: 132
+  scenesInBuild: []
+  rules:
+  - searchPath: Assets/HotUpdateResources/Controller
+    searchPattern: '*.controller'
+    nameBy: 1
+    assetBundleName: 
+  - searchPath: Assets/HotUpdateResources/Dll
+    searchPattern: '*.txt,*.bytes,*.json,*.csv,*.xml,*htm,*.html,*.yaml,*.fnt'
+    nameBy: 1
+    assetBundleName: 
+  - searchPath: Assets/HotUpdateResources/Material
+    searchPattern: '*.mat'
+    nameBy: 1
+    assetBundleName: 
+  - searchPath: Assets/HotUpdateResources/Other
+    searchPattern: '*'
+    nameBy: 1
+    assetBundleName: 
+  - searchPath: Assets/HotUpdateResources/Prefab
+    searchPattern: '*.prefab'
+    nameBy: 1
+    assetBundleName: 
+  - searchPath: Assets/HotUpdateResources/Scene
+    searchPattern: '*.unity'
+    nameBy: 1
+    assetBundleName: 
+  - searchPath: Assets/HotUpdateResources/ScriptableObject
+    searchPattern: '*.asset'
+    nameBy: 1
+    assetBundleName: 
+  - searchPath: Assets/HotUpdateResources/TextAsset
+    searchPattern: '*.txt,*.bytes,*.json,*.csv,*.xml,*htm,*.html,*.yaml,*.fnt'
+    nameBy: 1
+    assetBundleName: 
+  - searchPath: Assets/HotUpdateResources/UI
+    searchPattern: '*.png'
+    nameBy: 2
+    assetBundleName: 
+  ruleAssets:
+  - bundle: 169c8689b98cb20d39489c1c3de9b970.unity3d
+    path: Assets/HotUpdateResources/Controller/Animations/Effects/Fade/ShowFade.controller
+  - bundle: 0c7fb679572a32c9759dbecd846dbe73.unity3d
+    path: Assets/HotUpdateResources/Controller/Animations/Effects/Spin/DoSpin.controller
+  - bundle: d921fb60d76cf5d2781768d2ffb406e6.unity3d
+    path: Assets/HotUpdateResources/Controller/Animations/Panels/Award/AwardShowPanel.controller
+  - bundle: a7bbe57dc96f2ca4228e47389320034a.unity3d
+    path: Assets/HotUpdateResources/Controller/Animations/Panels/Tips/TipsPanel.controller
+  - bundle: 6c921d0e616edb457035dc5b23252486.unity3d
+    path: Assets/HotUpdateResources/Controller/Animations/Red/Red.controller
+  - bundle: f1e9148d33abaae32bb165f217c22e91.unity3d
+    path: Assets/HotUpdateResources/Dll/HotUpdateScripts.bytes
+  - bundle: bc76c5b00ec9222f12185d8675be35c1.unity3d
+    path: Assets/HotUpdateResources/Other/bgm.mp3
+  - bundle: f027f62d736f2b9930b079d86f3b90c2.unity3d
+    path: Assets/HotUpdateResources/Other/impact.ttf
+  - bundle: 5ee6f503422d0d30f35ab0cbfbf4e25c.unity3d
+    path: Assets/HotUpdateResources/Prefab/AwardPanel.prefab
+  - bundle: 9cd2650c400662c672fb85854e5c09f5.unity3d
+    path: Assets/HotUpdateResources/Prefab/BagPanel.prefab
+  - bundle: 51b7885a0f864e4880495cb6925dfab7.unity3d
+    path: Assets/HotUpdateResources/Prefab/EventPanel.prefab
+  - bundle: d7d828e75795eb65d458856147bd7d79.unity3d
+    path: Assets/HotUpdateResources/Prefab/GalleryItem.prefab
+  - bundle: 78ca619e8d1082e054849e0c24cf7201.unity3d
+    path: Assets/HotUpdateResources/Prefab/LoginPanel.prefab
+  - bundle: 4389473da541c9f21c36a0f7815a0308.unity3d
+    path: Assets/HotUpdateResources/Prefab/PropertyPanel.prefab
+  - bundle: 337ea0523d8d715576143401c16e5a78.unity3d
+    path: Assets/HotUpdateResources/Prefab/RankPanel.prefab
+  - bundle: 4f0c80d1be4814004d40d543790bce62.unity3d
+    path: Assets/HotUpdateResources/Prefab/TaskPanel.prefab
+  - bundle: ceddc0c9b3c8bf92a5649c7282074eed.unity3d
+    path: Assets/HotUpdateResources/Scene/Game.unity
+  - bundle: 2b816807df25e121dbbd3a5004da29e7.unity3d
+    path: Assets/HotUpdateResources/ScriptableObject/Version.asset
+  - bundle: 6409362d6eb671d168aa187271cd33a8.unity3d
+    path: Assets/HotUpdateResources/TextAsset/Localization.csv
+  - bundle: f88f702ad9cbd4af390b55805ebbb8e5.unity3d
+    path: Assets/HotUpdateResources/TextAsset/prop_cfg.json
+  - bundle: 67154bae314776974bfe617c8f68aa77.unity3d
+    path: Assets/HotUpdateResources/TextAsset/property_cfg.json
+  - bundle: 4b8a8c448e47343b827e56435df72857.unity3d
+    path: Assets/HotUpdateResources/TextAsset/task_cfg.json
+  - bundle: f2863909cb4d99e3e29a67c1e7d3a4ca.unity3d
+    path: Assets/HotUpdateResources/TextAsset/task_desc.json
+  - bundle: bf0b116501de462535f9d0dac0b966bc.unity3d
+    path: Assets/HotUpdateResources/UI/HONETi/additional_sizes/buttons/outline_buttons/basic/outline_basic.png
+  - bundle: bf0b116501de462535f9d0dac0b966bc.unity3d
+    path: Assets/HotUpdateResources/UI/HONETi/additional_sizes/buttons/outline_buttons/basic/outline_basic_down.png
+  - bundle: bf0b116501de462535f9d0dac0b966bc.unity3d
+    path: Assets/HotUpdateResources/UI/HONETi/additional_sizes/buttons/outline_buttons/basic/outline_basic_hover.png
+  - bundle: bf0b116501de462535f9d0dac0b966bc.unity3d
+    path: Assets/HotUpdateResources/UI/HONETi/additional_sizes/buttons/outline_buttons/basic/outline_basic_inactive.png
+  - bundle: eedaffdf515e4cd1026022c3da1bbcf4.unity3d
+    path: Assets/HotUpdateResources/UI/HONETi/additional_sizes/buttons/outline_buttons/corner/outline_corner.png
+  - bundle: eedaffdf515e4cd1026022c3da1bbcf4.unity3d
+    path: Assets/HotUpdateResources/UI/HONETi/additional_sizes/buttons/outline_buttons/corner/outline_corner_down.png
+  - bundle: eedaffdf515e4cd1026022c3da1bbcf4.unity3d
+    path: Assets/HotUpdateResources/UI/HONETi/additional_sizes/buttons/outline_buttons/corner/outline_corner_hover.png
+  - bundle: eedaffdf515e4cd1026022c3da1bbcf4.unity3d
+    path: Assets/HotUpdateResources/UI/HONETi/additional_sizes/buttons/outline_buttons/corner/outline_corner_inactive.png
+  - bundle: c5d69c02c7d9f28296b662c24fdf97a5.unity3d
+    path: Assets/HotUpdateResources/UI/HONETi/additional_sizes/buttons/outline_buttons/corners/outline_corners.png
+  - bundle: c5d69c02c7d9f28296b662c24fdf97a5.unity3d
+    path: Assets/HotUpdateResources/UI/HONETi/additional_sizes/buttons/outline_buttons/corners/outline_corners_down.png
+  - bundle: c5d69c02c7d9f28296b662c24fdf97a5.unity3d
+    path: Assets/HotUpdateResources/UI/HONETi/additional_sizes/buttons/outline_buttons/corners/outline_corners_hover.png
+  - bundle: c5d69c02c7d9f28296b662c24fdf97a5.unity3d
+    path: Assets/HotUpdateResources/UI/HONETi/additional_sizes/buttons/outline_buttons/corners/outline_corners_inactive.png
+  - bundle: 8a96daf57f6189729ab4ec336f2f6195.unity3d
+    path: Assets/HotUpdateResources/UI/HONETi/additional_sizes/buttons/regular_buttons/button_basic.png
+  - bundle: 8a96daf57f6189729ab4ec336f2f6195.unity3d
+    path: Assets/HotUpdateResources/UI/HONETi/additional_sizes/buttons/regular_buttons/button_corner.png
+  - bundle: 8a96daf57f6189729ab4ec336f2f6195.unity3d
+    path: Assets/HotUpdateResources/UI/HONETi/additional_sizes/buttons/regular_buttons/button_corners.png
+  - bundle: 711a6270333a6068db63ad5d49edbddc.unity3d
+    path: Assets/HotUpdateResources/UI/HONETi/additional_sizes/buttons/top_bar_buttons/button_l.png
+  - bundle: 711a6270333a6068db63ad5d49edbddc.unity3d
+    path: Assets/HotUpdateResources/UI/HONETi/additional_sizes/buttons/top_bar_buttons/button_m.png
+  - bundle: 711a6270333a6068db63ad5d49edbddc.unity3d
+    path: Assets/HotUpdateResources/UI/HONETi/additional_sizes/buttons/top_bar_buttons/button_r.png
+  - bundle: 648692058fb7c7343e0a7690e20f2c89.unity3d
+    path: Assets/HotUpdateResources/UI/HONETi/additional_sizes/controls/scroll_handle_h.png
+  - bundle: 648692058fb7c7343e0a7690e20f2c89.unity3d
+    path: Assets/HotUpdateResources/UI/HONETi/additional_sizes/controls/scroll_handle_v.png
+  - bundle: 648692058fb7c7343e0a7690e20f2c89.unity3d
+    path: Assets/HotUpdateResources/UI/HONETi/additional_sizes/controls/slider_handle.png
+  - bundle: 648692058fb7c7343e0a7690e20f2c89.unity3d
+    path: Assets/HotUpdateResources/UI/HONETi/additional_sizes/controls/switch_off.png
+  - bundle: 648692058fb7c7343e0a7690e20f2c89.unity3d
+    path: Assets/HotUpdateResources/UI/HONETi/additional_sizes/controls/switch_on.png
+  - bundle: 648692058fb7c7343e0a7690e20f2c89.unity3d
+    path: Assets/HotUpdateResources/UI/HONETi/additional_sizes/controls/toggle_on.png
+  - bundle: 37fa80fca78a9804f3ec4c015d911f78.unity3d
+    path: Assets/HotUpdateResources/UI/HONETi/additional_sizes/globe/globe_bg.png
+  - bundle: 37fa80fca78a9804f3ec4c015d911f78.unity3d
+    path: Assets/HotUpdateResources/UI/HONETi/additional_sizes/globe/globe_fill.png
+  - bundle: 48e766ef38031d33c9ae4d2e07915996.unity3d
+    path: Assets/HotUpdateResources/UI/HONETi/additional_sizes/panels/bottom_bar_bg.png
+  - bundle: 48e766ef38031d33c9ae4d2e07915996.unity3d
+    path: Assets/HotUpdateResources/UI/HONETi/additional_sizes/panels/chat_cloud_l.png
+  - bundle: 48e766ef38031d33c9ae4d2e07915996.unity3d
+    path: Assets/HotUpdateResources/UI/HONETi/additional_sizes/panels/chat_cloud_r.png
+  - bundle: 48e766ef38031d33c9ae4d2e07915996.unity3d
+    path: Assets/HotUpdateResources/UI/HONETi/additional_sizes/panels/corner_bg.png
+  - bundle: 48e766ef38031d33c9ae4d2e07915996.unity3d
+    path: Assets/HotUpdateResources/UI/HONETi/additional_sizes/panels/input_field.png
+  - bundle: 48e766ef38031d33c9ae4d2e07915996.unity3d
+    path: Assets/HotUpdateResources/UI/HONETi/additional_sizes/panels/input_field_filled.png
+  - bundle: 48e766ef38031d33c9ae4d2e07915996.unity3d
+    path: Assets/HotUpdateResources/UI/HONETi/additional_sizes/panels/section_bg.png
+  - bundle: 48e766ef38031d33c9ae4d2e07915996.unity3d
+    path: Assets/HotUpdateResources/UI/HONETi/additional_sizes/panels/section_outline.png
+  - bundle: 48e766ef38031d33c9ae4d2e07915996.unity3d
+    path: Assets/HotUpdateResources/UI/HONETi/additional_sizes/panels/side_bar_bg.png
+  - bundle: 48e766ef38031d33c9ae4d2e07915996.unity3d
+    path: Assets/HotUpdateResources/UI/HONETi/additional_sizes/panels/title_bar.png
+  - bundle: 48e766ef38031d33c9ae4d2e07915996.unity3d
+    path: Assets/HotUpdateResources/UI/HONETi/additional_sizes/panels/top_bar_bg.png
+  - bundle: 48e766ef38031d33c9ae4d2e07915996.unity3d
+    path: Assets/HotUpdateResources/UI/HONETi/additional_sizes/panels/window_bg.png
+  - bundle: 48e766ef38031d33c9ae4d2e07915996.unity3d
+    path: Assets/HotUpdateResources/UI/HONETi/additional_sizes/panels/window_bg_white.png
+  - bundle: 48e766ef38031d33c9ae4d2e07915996.unity3d
+    path: Assets/HotUpdateResources/UI/HONETi/additional_sizes/panels/window_stroke.png
+  - bundle: 48e766ef38031d33c9ae4d2e07915996.unity3d
+    path: "Assets/HotUpdateResources/UI/HONETi/additional_sizes/panels/window_\xD7.png"
+  - bundle: ce1616646d6870996d26e15c3b2c06d9.unity3d
+    path: Assets/HotUpdateResources/UI/HONETi/additional_sizes/state_bars/fill.png
+  - bundle: ce1616646d6870996d26e15c3b2c06d9.unity3d
+    path: Assets/HotUpdateResources/UI/HONETi/additional_sizes/state_bars/state_bar.png
+  - bundle: ce1616646d6870996d26e15c3b2c06d9.unity3d
+    path: Assets/HotUpdateResources/UI/HONETi/additional_sizes/state_bars/state_bar_2.png
+  - bundle: 2cc9c29f7980294709e4d42f715fcda2.unity3d
+    path: Assets/HotUpdateResources/UI/HONETi/buttons/button_basic.png
+  - bundle: 2cc9c29f7980294709e4d42f715fcda2.unity3d
+    path: Assets/HotUpdateResources/UI/HONETi/buttons/button_corner.png
+  - bundle: 2cc9c29f7980294709e4d42f715fcda2.unity3d
+    path: Assets/HotUpdateResources/UI/HONETi/buttons/button_corners.png
+  - bundle: b8fa3978c612a3157e2dae62fb7fc487.unity3d
+    path: Assets/HotUpdateResources/UI/HONETi/buttons/outline_buttons/basic/button_outline_basic.png
+  - bundle: b8fa3978c612a3157e2dae62fb7fc487.unity3d
+    path: Assets/HotUpdateResources/UI/HONETi/buttons/outline_buttons/basic/button_outline_basic_down.png
+  - bundle: b8fa3978c612a3157e2dae62fb7fc487.unity3d
+    path: Assets/HotUpdateResources/UI/HONETi/buttons/outline_buttons/basic/button_outline_basic_hover.png
+  - bundle: b8fa3978c612a3157e2dae62fb7fc487.unity3d
+    path: Assets/HotUpdateResources/UI/HONETi/buttons/outline_buttons/basic/button_outline_basic_inactive.png
+  - bundle: d9ed2416e35e8839f55423e79631909a.unity3d
+    path: Assets/HotUpdateResources/UI/HONETi/buttons/outline_buttons/corner/button_outline_corner.png
+  - bundle: d9ed2416e35e8839f55423e79631909a.unity3d
+    path: Assets/HotUpdateResources/UI/HONETi/buttons/outline_buttons/corner/button_outline_corner_down.png
+  - bundle: d9ed2416e35e8839f55423e79631909a.unity3d
+    path: Assets/HotUpdateResources/UI/HONETi/buttons/outline_buttons/corner/button_outline_corner_hover.png
+  - bundle: d9ed2416e35e8839f55423e79631909a.unity3d
+    path: Assets/HotUpdateResources/UI/HONETi/buttons/outline_buttons/corner/button_outline_corner_inactive.png
+  - bundle: 02f05d6ab451f5fd256c269663ed27a2.unity3d
+    path: Assets/HotUpdateResources/UI/HONETi/buttons/outline_buttons/corners/button_outline.png
+  - bundle: 02f05d6ab451f5fd256c269663ed27a2.unity3d
+    path: Assets/HotUpdateResources/UI/HONETi/buttons/outline_buttons/corners/button_outline_disabled.png
+  - bundle: 02f05d6ab451f5fd256c269663ed27a2.unity3d
+    path: Assets/HotUpdateResources/UI/HONETi/buttons/outline_buttons/corners/button_outline_down.png
+  - bundle: 02f05d6ab451f5fd256c269663ed27a2.unity3d
+    path: Assets/HotUpdateResources/UI/HONETi/buttons/outline_buttons/corners/button_outline_flip.png
+  - bundle: 02f05d6ab451f5fd256c269663ed27a2.unity3d
+    path: Assets/HotUpdateResources/UI/HONETi/buttons/outline_buttons/corners/button_outline_flip_disabled.png
+  - bundle: 02f05d6ab451f5fd256c269663ed27a2.unity3d
+    path: Assets/HotUpdateResources/UI/HONETi/buttons/outline_buttons/corners/button_outline_flip_down.png
+  - bundle: 02f05d6ab451f5fd256c269663ed27a2.unity3d
+    path: Assets/HotUpdateResources/UI/HONETi/buttons/outline_buttons/corners/button_outline_flip_hover.png
+  - bundle: 02f05d6ab451f5fd256c269663ed27a2.unity3d
+    path: Assets/HotUpdateResources/UI/HONETi/buttons/outline_buttons/corners/button_outline_hover.png
+  - bundle: 6646188f99b8296d6934892a81ce5158.unity3d
+    path: Assets/HotUpdateResources/UI/HONETi/buttons/top_bar_buttons/button_l.png
+  - bundle: 6646188f99b8296d6934892a81ce5158.unity3d
+    path: Assets/HotUpdateResources/UI/HONETi/buttons/top_bar_buttons/button_m.png
+  - bundle: 6646188f99b8296d6934892a81ce5158.unity3d
+    path: Assets/HotUpdateResources/UI/HONETi/buttons/top_bar_buttons/button_r.png
+  - bundle: 8754bb6cd64554508dd823bb3fdde600.unity3d
+    path: Assets/HotUpdateResources/UI/HONETi/controls/scroll_bar/scroll_handle.png
+  - bundle: 8754bb6cd64554508dd823bb3fdde600.unity3d
+    path: Assets/HotUpdateResources/UI/HONETi/controls/scroll_bar/scroll_handle_v.png
+  - bundle: 4ff79004846c100b7b7b8cdc76ae75a8.unity3d
+    path: Assets/HotUpdateResources/UI/HONETi/controls/slider/slider_handle.png
+  - bundle: 58ef5e884d533b878a71c7a22d36c9c9.unity3d
+    path: Assets/HotUpdateResources/UI/HONETi/controls/switch/switch_off.png
+  - bundle: 58ef5e884d533b878a71c7a22d36c9c9.unity3d
+    path: Assets/HotUpdateResources/UI/HONETi/controls/switch/switch_off_text.png
+  - bundle: 58ef5e884d533b878a71c7a22d36c9c9.unity3d
+    path: Assets/HotUpdateResources/UI/HONETi/controls/switch/switch_on.png
+  - bundle: 58ef5e884d533b878a71c7a22d36c9c9.unity3d
+    path: Assets/HotUpdateResources/UI/HONETi/controls/switch/switch_on_text.png
+  - bundle: e606b743ae4212ea2976d17e10e9d20d.unity3d
+    path: Assets/HotUpdateResources/UI/HONETi/controls/toggle/toggle_radio.png
+  - bundle: b0eace940408ea5017fc0a55f2ae6aae.unity3d
+    path: Assets/HotUpdateResources/UI/HONETi/globe/globe_bg.png
+  - bundle: b0eace940408ea5017fc0a55f2ae6aae.unity3d
+    path: Assets/HotUpdateResources/UI/HONETi/globe/globe_fill.png
+  - bundle: ed07346addd01fc45e46a4401fef2608.unity3d
+    path: Assets/HotUpdateResources/UI/HONETi/icons/128x128px/air.png
+  - bundle: ed07346addd01fc45e46a4401fef2608.unity3d
+    path: Assets/HotUpdateResources/UI/HONETi/icons/128x128px/arrow_d.png
+  - bundle: ed07346addd01fc45e46a4401fef2608.unity3d
+    path: Assets/HotUpdateResources/UI/HONETi/icons/128x128px/arrow_l.png
+  - bundle: ed07346addd01fc45e46a4401fef2608.unity3d
+    path: Assets/HotUpdateResources/UI/HONETi/icons/128x128px/arrow_r.png
+  - bundle: ed07346addd01fc45e46a4401fef2608.unity3d
+    path: Assets/HotUpdateResources/UI/HONETi/icons/128x128px/arrow_u.png
+  - bundle: ed07346addd01fc45e46a4401fef2608.unity3d
+    path: Assets/HotUpdateResources/UI/HONETi/icons/128x128px/basket.png
+  - bundle: ed07346addd01fc45e46a4401fef2608.unity3d
+    path: Assets/HotUpdateResources/UI/HONETi/icons/128x128px/bin.png
+  - bundle: ed07346addd01fc45e46a4401fef2608.unity3d
+    path: Assets/HotUpdateResources/UI/HONETi/icons/128x128px/checkmark.png
+  - bundle: ed07346addd01fc45e46a4401fef2608.unity3d
+    path: Assets/HotUpdateResources/UI/HONETi/icons/128x128px/chest.png
+  - bundle: ed07346addd01fc45e46a4401fef2608.unity3d
+    path: Assets/HotUpdateResources/UI/HONETi/icons/128x128px/coins.png
+  - bundle: ed07346addd01fc45e46a4401fef2608.unity3d
+    path: Assets/HotUpdateResources/UI/HONETi/icons/128x128px/cup.png
+  - bundle: ed07346addd01fc45e46a4401fef2608.unity3d
+    path: Assets/HotUpdateResources/UI/HONETi/icons/128x128px/dots.png
+  - bundle: ed07346addd01fc45e46a4401fef2608.unity3d
+    path: Assets/HotUpdateResources/UI/HONETi/icons/128x128px/drop.png
+  - bundle: ed07346addd01fc45e46a4401fef2608.unity3d
+    path: Assets/HotUpdateResources/UI/HONETi/icons/128x128px/exclamation.png
+  - bundle: ed07346addd01fc45e46a4401fef2608.unity3d
+    path: Assets/HotUpdateResources/UI/HONETi/icons/128x128px/flame.png
+  - bundle: ed07346addd01fc45e46a4401fef2608.unity3d
+    path: Assets/HotUpdateResources/UI/HONETi/icons/128x128px/gem.png
+  - bundle: ed07346addd01fc45e46a4401fef2608.unity3d
+    path: Assets/HotUpdateResources/UI/HONETi/icons/128x128px/heart.png
+  - bundle: ed07346addd01fc45e46a4401fef2608.unity3d
+    path: Assets/HotUpdateResources/UI/HONETi/icons/128x128px/heart_plus.png
+  - bundle: ed07346addd01fc45e46a4401fef2608.unity3d
+    path: Assets/HotUpdateResources/UI/HONETi/icons/128x128px/info.png
+  - bundle: ed07346addd01fc45e46a4401fef2608.unity3d
+    path: Assets/HotUpdateResources/UI/HONETi/icons/128x128px/lightning.png
+  - bundle: ed07346addd01fc45e46a4401fef2608.unity3d
+    path: Assets/HotUpdateResources/UI/HONETi/icons/128x128px/lock_01.png
+  - bundle: ed07346addd01fc45e46a4401fef2608.unity3d
+    path: Assets/HotUpdateResources/UI/HONETi/icons/128x128px/lock_02.png
+  - bundle: ed07346addd01fc45e46a4401fef2608.unity3d
+    path: Assets/HotUpdateResources/UI/HONETi/icons/128x128px/medal.png
+  - bundle: ed07346addd01fc45e46a4401fef2608.unity3d
+    path: Assets/HotUpdateResources/UI/HONETi/icons/128x128px/menu.png
+  - bundle: ed07346addd01fc45e46a4401fef2608.unity3d
+    path: Assets/HotUpdateResources/UI/HONETi/icons/128x128px/minus.png
+  - bundle: ed07346addd01fc45e46a4401fef2608.unity3d
+    path: Assets/HotUpdateResources/UI/HONETi/icons/128x128px/pause.png
+  - bundle: ed07346addd01fc45e46a4401fef2608.unity3d
+    path: Assets/HotUpdateResources/UI/HONETi/icons/128x128px/play.png
+  - bundle: ed07346addd01fc45e46a4401fef2608.unity3d
+    path: Assets/HotUpdateResources/UI/HONETi/icons/128x128px/plus.png
+  - bundle: ed07346addd01fc45e46a4401fef2608.unity3d
+    path: Assets/HotUpdateResources/UI/HONETi/icons/128x128px/repeat.png
+  - bundle: ed07346addd01fc45e46a4401fef2608.unity3d
+    path: Assets/HotUpdateResources/UI/HONETi/icons/128x128px/settings.png
+  - bundle: ed07346addd01fc45e46a4401fef2608.unity3d
+    path: Assets/HotUpdateResources/UI/HONETi/icons/128x128px/snow.png
+  - bundle: ed07346addd01fc45e46a4401fef2608.unity3d
+    path: Assets/HotUpdateResources/UI/HONETi/icons/128x128px/speaker_low.png
+  - bundle: ed07346addd01fc45e46a4401fef2608.unity3d
+    path: Assets/HotUpdateResources/UI/HONETi/icons/128x128px/stats.png
+  - bundle: ed07346addd01fc45e46a4401fef2608.unity3d
+    path: Assets/HotUpdateResources/UI/HONETi/icons/128x128px/strength.png
+  - bundle: ed07346addd01fc45e46a4401fef2608.unity3d
+    path: Assets/HotUpdateResources/UI/HONETi/icons/128x128px/surprise.png
+  - bundle: ed07346addd01fc45e46a4401fef2608.unity3d
+    path: Assets/HotUpdateResources/UI/HONETi/icons/128x128px/swords.png
+  - bundle: ed07346addd01fc45e46a4401fef2608.unity3d
+    path: Assets/HotUpdateResources/UI/HONETi/icons/128x128px/x.png
+  - bundle: aadccb7da80c313c4105eea4404b9883.unity3d
+    path: Assets/HotUpdateResources/UI/HONETi/icons/256x256px/air.png
+  - bundle: aadccb7da80c313c4105eea4404b9883.unity3d
+    path: Assets/HotUpdateResources/UI/HONETi/icons/256x256px/arrow_d.png
+  - bundle: aadccb7da80c313c4105eea4404b9883.unity3d
+    path: Assets/HotUpdateResources/UI/HONETi/icons/256x256px/arrow_l.png
+  - bundle: aadccb7da80c313c4105eea4404b9883.unity3d
+    path: Assets/HotUpdateResources/UI/HONETi/icons/256x256px/arrow_r.png
+  - bundle: aadccb7da80c313c4105eea4404b9883.unity3d
+    path: Assets/HotUpdateResources/UI/HONETi/icons/256x256px/arrow_u.png
+  - bundle: aadccb7da80c313c4105eea4404b9883.unity3d
+    path: Assets/HotUpdateResources/UI/HONETi/icons/256x256px/basket.png
+  - bundle: aadccb7da80c313c4105eea4404b9883.unity3d
+    path: Assets/HotUpdateResources/UI/HONETi/icons/256x256px/bin.png
+  - bundle: aadccb7da80c313c4105eea4404b9883.unity3d
+    path: Assets/HotUpdateResources/UI/HONETi/icons/256x256px/checkmark.png
+  - bundle: aadccb7da80c313c4105eea4404b9883.unity3d
+    path: Assets/HotUpdateResources/UI/HONETi/icons/256x256px/chest.png
+  - bundle: aadccb7da80c313c4105eea4404b9883.unity3d
+    path: Assets/HotUpdateResources/UI/HONETi/icons/256x256px/coin_plus.png
+  - bundle: aadccb7da80c313c4105eea4404b9883.unity3d
+    path: Assets/HotUpdateResources/UI/HONETi/icons/256x256px/coins.png
+  - bundle: aadccb7da80c313c4105eea4404b9883.unity3d
+    path: Assets/HotUpdateResources/UI/HONETi/icons/256x256px/cup.png
+  - bundle: aadccb7da80c313c4105eea4404b9883.unity3d
+    path: Assets/HotUpdateResources/UI/HONETi/icons/256x256px/dots.png
+  - bundle: aadccb7da80c313c4105eea4404b9883.unity3d
+    path: Assets/HotUpdateResources/UI/HONETi/icons/256x256px/drop.png
+  - bundle: aadccb7da80c313c4105eea4404b9883.unity3d
+    path: Assets/HotUpdateResources/UI/HONETi/icons/256x256px/exclamation.png
+  - bundle: aadccb7da80c313c4105eea4404b9883.unity3d
+    path: Assets/HotUpdateResources/UI/HONETi/icons/256x256px/flame.png
+  - bundle: aadccb7da80c313c4105eea4404b9883.unity3d
+    path: Assets/HotUpdateResources/UI/HONETi/icons/256x256px/gem.png
+  - bundle: aadccb7da80c313c4105eea4404b9883.unity3d
+    path: Assets/HotUpdateResources/UI/HONETi/icons/256x256px/heart.png
+  - bundle: aadccb7da80c313c4105eea4404b9883.unity3d
+    path: Assets/HotUpdateResources/UI/HONETi/icons/256x256px/heart_plus.png
+  - bundle: aadccb7da80c313c4105eea4404b9883.unity3d
+    path: Assets/HotUpdateResources/UI/HONETi/icons/256x256px/help.png
+  - bundle: aadccb7da80c313c4105eea4404b9883.unity3d
+    path: Assets/HotUpdateResources/UI/HONETi/icons/256x256px/home.png
+  - bundle: aadccb7da80c313c4105eea4404b9883.unity3d
+    path: Assets/HotUpdateResources/UI/HONETi/icons/256x256px/info.png
+  - bundle: aadccb7da80c313c4105eea4404b9883.unity3d
+    path: Assets/HotUpdateResources/UI/HONETi/icons/256x256px/leaf.png
+  - bundle: aadccb7da80c313c4105eea4404b9883.unity3d
+    path: Assets/HotUpdateResources/UI/HONETi/icons/256x256px/lightning.png
+  - bundle: aadccb7da80c313c4105eea4404b9883.unity3d
+    path: Assets/HotUpdateResources/UI/HONETi/icons/256x256px/lock_01.png
+  - bundle: aadccb7da80c313c4105eea4404b9883.unity3d
+    path: Assets/HotUpdateResources/UI/HONETi/icons/256x256px/lock_02.png
+  - bundle: aadccb7da80c313c4105eea4404b9883.unity3d
+    path: Assets/HotUpdateResources/UI/HONETi/icons/256x256px/medal.png
+  - bundle: aadccb7da80c313c4105eea4404b9883.unity3d
+    path: Assets/HotUpdateResources/UI/HONETi/icons/256x256px/menu.png
+  - bundle: aadccb7da80c313c4105eea4404b9883.unity3d
+    path: Assets/HotUpdateResources/UI/HONETi/icons/256x256px/minus.png
+  - bundle: aadccb7da80c313c4105eea4404b9883.unity3d
+    path: Assets/HotUpdateResources/UI/HONETi/icons/256x256px/pause.png
+  - bundle: aadccb7da80c313c4105eea4404b9883.unity3d
+    path: Assets/HotUpdateResources/UI/HONETi/icons/256x256px/play.png
+  - bundle: aadccb7da80c313c4105eea4404b9883.unity3d
+    path: Assets/HotUpdateResources/UI/HONETi/icons/256x256px/plus.png
+  - bundle: aadccb7da80c313c4105eea4404b9883.unity3d
+    path: Assets/HotUpdateResources/UI/HONETi/icons/256x256px/repeat.png
+  - bundle: aadccb7da80c313c4105eea4404b9883.unity3d
+    path: Assets/HotUpdateResources/UI/HONETi/icons/256x256px/settings.png
+  - bundle: aadccb7da80c313c4105eea4404b9883.unity3d
+    path: Assets/HotUpdateResources/UI/HONETi/icons/256x256px/snow.png
+  - bundle: aadccb7da80c313c4105eea4404b9883.unity3d
+    path: Assets/HotUpdateResources/UI/HONETi/icons/256x256px/speaker_high.png
+  - bundle: aadccb7da80c313c4105eea4404b9883.unity3d
+    path: Assets/HotUpdateResources/UI/HONETi/icons/256x256px/speaker_low.png
+  - bundle: aadccb7da80c313c4105eea4404b9883.unity3d
+    path: Assets/HotUpdateResources/UI/HONETi/icons/256x256px/speaker_mute.png
+  - bundle: aadccb7da80c313c4105eea4404b9883.unity3d
+    path: Assets/HotUpdateResources/UI/HONETi/icons/256x256px/star.png
+  - bundle: aadccb7da80c313c4105eea4404b9883.unity3d
+    path: Assets/HotUpdateResources/UI/HONETi/icons/256x256px/stats.png
+  - bundle: aadccb7da80c313c4105eea4404b9883.unity3d
+    path: Assets/HotUpdateResources/UI/HONETi/icons/256x256px/strength.png
+  - bundle: aadccb7da80c313c4105eea4404b9883.unity3d
+    path: Assets/HotUpdateResources/UI/HONETi/icons/256x256px/suprise.png
+  - bundle: aadccb7da80c313c4105eea4404b9883.unity3d
+    path: Assets/HotUpdateResources/UI/HONETi/icons/256x256px/swords.png
+  - bundle: aadccb7da80c313c4105eea4404b9883.unity3d
+    path: Assets/HotUpdateResources/UI/HONETi/icons/256x256px/user.png
+  - bundle: aadccb7da80c313c4105eea4404b9883.unity3d
+    path: Assets/HotUpdateResources/UI/HONETi/icons/256x256px/x.png
+  - bundle: 6dfd9be4ad103945910a07c10295cbb2.unity3d
+    path: Assets/HotUpdateResources/UI/HONETi/icons/32x32px/air.png
+  - bundle: 6dfd9be4ad103945910a07c10295cbb2.unity3d
+    path: Assets/HotUpdateResources/UI/HONETi/icons/32x32px/arrow_d.png
+  - bundle: 6dfd9be4ad103945910a07c10295cbb2.unity3d
+    path: Assets/HotUpdateResources/UI/HONETi/icons/32x32px/arrow_l.png
+  - bundle: 6dfd9be4ad103945910a07c10295cbb2.unity3d
+    path: Assets/HotUpdateResources/UI/HONETi/icons/32x32px/arrow_r.png
+  - bundle: 6dfd9be4ad103945910a07c10295cbb2.unity3d
+    path: Assets/HotUpdateResources/UI/HONETi/icons/32x32px/arrow_u.png
+  - bundle: 6dfd9be4ad103945910a07c10295cbb2.unity3d
+    path: Assets/HotUpdateResources/UI/HONETi/icons/32x32px/basket.png
+  - bundle: 6dfd9be4ad103945910a07c10295cbb2.unity3d
+    path: Assets/HotUpdateResources/UI/HONETi/icons/32x32px/bin.png
+  - bundle: 6dfd9be4ad103945910a07c10295cbb2.unity3d
+    path: Assets/HotUpdateResources/UI/HONETi/icons/32x32px/checkmark.png
+  - bundle: 6dfd9be4ad103945910a07c10295cbb2.unity3d
+    path: Assets/HotUpdateResources/UI/HONETi/icons/32x32px/chest.png
+  - bundle: 6dfd9be4ad103945910a07c10295cbb2.unity3d
+    path: Assets/HotUpdateResources/UI/HONETi/icons/32x32px/coin_plus.png
+  - bundle: 6dfd9be4ad103945910a07c10295cbb2.unity3d
+    path: Assets/HotUpdateResources/UI/HONETi/icons/32x32px/coins.png
+  - bundle: 6dfd9be4ad103945910a07c10295cbb2.unity3d
+    path: Assets/HotUpdateResources/UI/HONETi/icons/32x32px/cup.png
+  - bundle: 6dfd9be4ad103945910a07c10295cbb2.unity3d
+    path: Assets/HotUpdateResources/UI/HONETi/icons/32x32px/dots.png
+  - bundle: 6dfd9be4ad103945910a07c10295cbb2.unity3d
+    path: Assets/HotUpdateResources/UI/HONETi/icons/32x32px/drop.png
+  - bundle: 6dfd9be4ad103945910a07c10295cbb2.unity3d
+    path: Assets/HotUpdateResources/UI/HONETi/icons/32x32px/exclamation.png
+  - bundle: 6dfd9be4ad103945910a07c10295cbb2.unity3d
+    path: Assets/HotUpdateResources/UI/HONETi/icons/32x32px/flame.png
+  - bundle: 6dfd9be4ad103945910a07c10295cbb2.unity3d
+    path: Assets/HotUpdateResources/UI/HONETi/icons/32x32px/gem.png
+  - bundle: 6dfd9be4ad103945910a07c10295cbb2.unity3d
+    path: Assets/HotUpdateResources/UI/HONETi/icons/32x32px/heart.png
+  - bundle: 6dfd9be4ad103945910a07c10295cbb2.unity3d
+    path: Assets/HotUpdateResources/UI/HONETi/icons/32x32px/heart_plus.png
+  - bundle: 6dfd9be4ad103945910a07c10295cbb2.unity3d
+    path: Assets/HotUpdateResources/UI/HONETi/icons/32x32px/help.png
+  - bundle: 6dfd9be4ad103945910a07c10295cbb2.unity3d
+    path: Assets/HotUpdateResources/UI/HONETi/icons/32x32px/home.png
+  - bundle: 6dfd9be4ad103945910a07c10295cbb2.unity3d
+    path: Assets/HotUpdateResources/UI/HONETi/icons/32x32px/info.png
+  - bundle: 6dfd9be4ad103945910a07c10295cbb2.unity3d
+    path: Assets/HotUpdateResources/UI/HONETi/icons/32x32px/leaf.png
+  - bundle: 6dfd9be4ad103945910a07c10295cbb2.unity3d
+    path: Assets/HotUpdateResources/UI/HONETi/icons/32x32px/lightning.png
+  - bundle: 6dfd9be4ad103945910a07c10295cbb2.unity3d
+    path: Assets/HotUpdateResources/UI/HONETi/icons/32x32px/lock_01.png
+  - bundle: 6dfd9be4ad103945910a07c10295cbb2.unity3d
+    path: Assets/HotUpdateResources/UI/HONETi/icons/32x32px/lock_02.png
+  - bundle: 6dfd9be4ad103945910a07c10295cbb2.unity3d
+    path: Assets/HotUpdateResources/UI/HONETi/icons/32x32px/medal.png
+  - bundle: 6dfd9be4ad103945910a07c10295cbb2.unity3d
+    path: Assets/HotUpdateResources/UI/HONETi/icons/32x32px/menu.png
+  - bundle: 6dfd9be4ad103945910a07c10295cbb2.unity3d
+    path: Assets/HotUpdateResources/UI/HONETi/icons/32x32px/minus.png
+  - bundle: 6dfd9be4ad103945910a07c10295cbb2.unity3d
+    path: Assets/HotUpdateResources/UI/HONETi/icons/32x32px/pause.png
+  - bundle: 6dfd9be4ad103945910a07c10295cbb2.unity3d
+    path: Assets/HotUpdateResources/UI/HONETi/icons/32x32px/play.png
+  - bundle: 6dfd9be4ad103945910a07c10295cbb2.unity3d
+    path: Assets/HotUpdateResources/UI/HONETi/icons/32x32px/plus.png
+  - bundle: 6dfd9be4ad103945910a07c10295cbb2.unity3d
+    path: Assets/HotUpdateResources/UI/HONETi/icons/32x32px/repeat.png
+  - bundle: 6dfd9be4ad103945910a07c10295cbb2.unity3d
+    path: Assets/HotUpdateResources/UI/HONETi/icons/32x32px/settings.png
+  - bundle: 6dfd9be4ad103945910a07c10295cbb2.unity3d
+    path: Assets/HotUpdateResources/UI/HONETi/icons/32x32px/snow.png
+  - bundle: 6dfd9be4ad103945910a07c10295cbb2.unity3d
+    path: Assets/HotUpdateResources/UI/HONETi/icons/32x32px/speaker_high.png
+  - bundle: 6dfd9be4ad103945910a07c10295cbb2.unity3d
+    path: Assets/HotUpdateResources/UI/HONETi/icons/32x32px/speaker_low.png
+  - bundle: 6dfd9be4ad103945910a07c10295cbb2.unity3d
+    path: Assets/HotUpdateResources/UI/HONETi/icons/32x32px/speaker_mute.png
+  - bundle: 6dfd9be4ad103945910a07c10295cbb2.unity3d
+    path: Assets/HotUpdateResources/UI/HONETi/icons/32x32px/star.png
+  - bundle: 6dfd9be4ad103945910a07c10295cbb2.unity3d
+    path: Assets/HotUpdateResources/UI/HONETi/icons/32x32px/stats.png
+  - bundle: 6dfd9be4ad103945910a07c10295cbb2.unity3d
+    path: Assets/HotUpdateResources/UI/HONETi/icons/32x32px/strength.png
+  - bundle: 6dfd9be4ad103945910a07c10295cbb2.unity3d
+    path: Assets/HotUpdateResources/UI/HONETi/icons/32x32px/surprise.png
+  - bundle: 6dfd9be4ad103945910a07c10295cbb2.unity3d
+    path: Assets/HotUpdateResources/UI/HONETi/icons/32x32px/swords.png
+  - bundle: 6dfd9be4ad103945910a07c10295cbb2.unity3d
+    path: Assets/HotUpdateResources/UI/HONETi/icons/32x32px/user.png
+  - bundle: 6dfd9be4ad103945910a07c10295cbb2.unity3d
+    path: Assets/HotUpdateResources/UI/HONETi/icons/32x32px/x.png
+  - bundle: fa1e65f4283d521087bd003a4a996871.unity3d
+    path: Assets/HotUpdateResources/UI/HONETi/icons/64x64px/air.png
+  - bundle: fa1e65f4283d521087bd003a4a996871.unity3d
+    path: Assets/HotUpdateResources/UI/HONETi/icons/64x64px/arrow_d.png
+  - bundle: fa1e65f4283d521087bd003a4a996871.unity3d
+    path: Assets/HotUpdateResources/UI/HONETi/icons/64x64px/arrow_l.png
+  - bundle: fa1e65f4283d521087bd003a4a996871.unity3d
+    path: Assets/HotUpdateResources/UI/HONETi/icons/64x64px/arrow_r.png
+  - bundle: fa1e65f4283d521087bd003a4a996871.unity3d
+    path: Assets/HotUpdateResources/UI/HONETi/icons/64x64px/arrow_u.png
+  - bundle: fa1e65f4283d521087bd003a4a996871.unity3d
+    path: Assets/HotUpdateResources/UI/HONETi/icons/64x64px/basket.png
+  - bundle: fa1e65f4283d521087bd003a4a996871.unity3d
+    path: Assets/HotUpdateResources/UI/HONETi/icons/64x64px/bin.png
+  - bundle: fa1e65f4283d521087bd003a4a996871.unity3d
+    path: Assets/HotUpdateResources/UI/HONETi/icons/64x64px/checkmark.png
+  - bundle: fa1e65f4283d521087bd003a4a996871.unity3d
+    path: Assets/HotUpdateResources/UI/HONETi/icons/64x64px/chest.png
+  - bundle: fa1e65f4283d521087bd003a4a996871.unity3d
+    path: Assets/HotUpdateResources/UI/HONETi/icons/64x64px/coin_plus.png
+  - bundle: fa1e65f4283d521087bd003a4a996871.unity3d
+    path: Assets/HotUpdateResources/UI/HONETi/icons/64x64px/cup.png
+  - bundle: fa1e65f4283d521087bd003a4a996871.unity3d
+    path: Assets/HotUpdateResources/UI/HONETi/icons/64x64px/dots.png
+  - bundle: fa1e65f4283d521087bd003a4a996871.unity3d
+    path: Assets/HotUpdateResources/UI/HONETi/icons/64x64px/drop.png
+  - bundle: fa1e65f4283d521087bd003a4a996871.unity3d
+    path: Assets/HotUpdateResources/UI/HONETi/icons/64x64px/exclamation.png
+  - bundle: fa1e65f4283d521087bd003a4a996871.unity3d
+    path: Assets/HotUpdateResources/UI/HONETi/icons/64x64px/flame.png
+  - bundle: fa1e65f4283d521087bd003a4a996871.unity3d
+    path: Assets/HotUpdateResources/UI/HONETi/icons/64x64px/gem.png
+  - bundle: fa1e65f4283d521087bd003a4a996871.unity3d
+    path: Assets/HotUpdateResources/UI/HONETi/icons/64x64px/heart.png
+  - bundle: fa1e65f4283d521087bd003a4a996871.unity3d
+    path: Assets/HotUpdateResources/UI/HONETi/icons/64x64px/heart_plus.png
+  - bundle: fa1e65f4283d521087bd003a4a996871.unity3d
+    path: Assets/HotUpdateResources/UI/HONETi/icons/64x64px/help.png
+  - bundle: fa1e65f4283d521087bd003a4a996871.unity3d
+    path: Assets/HotUpdateResources/UI/HONETi/icons/64x64px/home.png
+  - bundle: fa1e65f4283d521087bd003a4a996871.unity3d
+    path: Assets/HotUpdateResources/UI/HONETi/icons/64x64px/info.png
+  - bundle: fa1e65f4283d521087bd003a4a996871.unity3d
+    path: Assets/HotUpdateResources/UI/HONETi/icons/64x64px/leaf.png
+  - bundle: fa1e65f4283d521087bd003a4a996871.unity3d
+    path: Assets/HotUpdateResources/UI/HONETi/icons/64x64px/lightning.png
+  - bundle: fa1e65f4283d521087bd003a4a996871.unity3d
+    path: Assets/HotUpdateResources/UI/HONETi/icons/64x64px/lock_02.png
+  - bundle: fa1e65f4283d521087bd003a4a996871.unity3d
+    path: Assets/HotUpdateResources/UI/HONETi/icons/64x64px/medal.png
+  - bundle: fa1e65f4283d521087bd003a4a996871.unity3d
+    path: Assets/HotUpdateResources/UI/HONETi/icons/64x64px/menu.png
+  - bundle: fa1e65f4283d521087bd003a4a996871.unity3d
+    path: Assets/HotUpdateResources/UI/HONETi/icons/64x64px/minus.png
+  - bundle: fa1e65f4283d521087bd003a4a996871.unity3d
+    path: Assets/HotUpdateResources/UI/HONETi/icons/64x64px/pause.png
+  - bundle: fa1e65f4283d521087bd003a4a996871.unity3d
+    path: Assets/HotUpdateResources/UI/HONETi/icons/64x64px/play.png
+  - bundle: fa1e65f4283d521087bd003a4a996871.unity3d
+    path: Assets/HotUpdateResources/UI/HONETi/icons/64x64px/plus.png
+  - bundle: fa1e65f4283d521087bd003a4a996871.unity3d
+    path: Assets/HotUpdateResources/UI/HONETi/icons/64x64px/repeat.png
+  - bundle: fa1e65f4283d521087bd003a4a996871.unity3d
+    path: Assets/HotUpdateResources/UI/HONETi/icons/64x64px/settings.png
+  - bundle: fa1e65f4283d521087bd003a4a996871.unity3d
+    path: Assets/HotUpdateResources/UI/HONETi/icons/64x64px/snow.png
+  - bundle: fa1e65f4283d521087bd003a4a996871.unity3d
+    path: Assets/HotUpdateResources/UI/HONETi/icons/64x64px/speaker_high.png
+  - bundle: fa1e65f4283d521087bd003a4a996871.unity3d
+    path: Assets/HotUpdateResources/UI/HONETi/icons/64x64px/speaker_low.png
+  - bundle: fa1e65f4283d521087bd003a4a996871.unity3d
+    path: Assets/HotUpdateResources/UI/HONETi/icons/64x64px/speaker_mute.png
+  - bundle: fa1e65f4283d521087bd003a4a996871.unity3d
+    path: Assets/HotUpdateResources/UI/HONETi/icons/64x64px/star.png
+  - bundle: fa1e65f4283d521087bd003a4a996871.unity3d
+    path: Assets/HotUpdateResources/UI/HONETi/icons/64x64px/stats.png
+  - bundle: fa1e65f4283d521087bd003a4a996871.unity3d
+    path: Assets/HotUpdateResources/UI/HONETi/icons/64x64px/strength.png
+  - bundle: fa1e65f4283d521087bd003a4a996871.unity3d
+    path: Assets/HotUpdateResources/UI/HONETi/icons/64x64px/surprise.png
+  - bundle: fa1e65f4283d521087bd003a4a996871.unity3d
+    path: Assets/HotUpdateResources/UI/HONETi/icons/64x64px/swords.png
+  - bundle: fa1e65f4283d521087bd003a4a996871.unity3d
+    path: Assets/HotUpdateResources/UI/HONETi/icons/64x64px/user.png
+  - bundle: fa1e65f4283d521087bd003a4a996871.unity3d
+    path: Assets/HotUpdateResources/UI/HONETi/icons/64x64px/x.png
+  - bundle: f5a0b51f4b850bdab88bc1789337d9f8.unity3d
+    path: Assets/HotUpdateResources/UI/HONETi/items/128x128px/Untitled-1_21.png
+  - bundle: f5a0b51f4b850bdab88bc1789337d9f8.unity3d
+    path: Assets/HotUpdateResources/UI/HONETi/items/128x128px/Untitled-1_22.png
+  - bundle: f5a0b51f4b850bdab88bc1789337d9f8.unity3d
+    path: Assets/HotUpdateResources/UI/HONETi/items/128x128px/Untitled-1_23.png
+  - bundle: f5a0b51f4b850bdab88bc1789337d9f8.unity3d
+    path: Assets/HotUpdateResources/UI/HONETi/items/128x128px/ammunition.png
+  - bundle: f5a0b51f4b850bdab88bc1789337d9f8.unity3d
+    path: Assets/HotUpdateResources/UI/HONETi/items/128x128px/arrows.png
+  - bundle: f5a0b51f4b850bdab88bc1789337d9f8.unity3d
+    path: Assets/HotUpdateResources/UI/HONETi/items/128x128px/ax.png
+  - bundle: f5a0b51f4b850bdab88bc1789337d9f8.unity3d
+    path: Assets/HotUpdateResources/UI/HONETi/items/128x128px/ax_double.png
+  - bundle: f5a0b51f4b850bdab88bc1789337d9f8.unity3d
+    path: Assets/HotUpdateResources/UI/HONETi/items/128x128px/backpack.png
+  - bundle: f5a0b51f4b850bdab88bc1789337d9f8.unity3d
+    path: Assets/HotUpdateResources/UI/HONETi/items/128x128px/bones.png
+  - bundle: f5a0b51f4b850bdab88bc1789337d9f8.unity3d
+    path: Assets/HotUpdateResources/UI/HONETi/items/128x128px/boots.png
+  - bundle: f5a0b51f4b850bdab88bc1789337d9f8.unity3d
+    path: Assets/HotUpdateResources/UI/HONETi/items/128x128px/bow.png
+  - bundle: f5a0b51f4b850bdab88bc1789337d9f8.unity3d
+    path: Assets/HotUpdateResources/UI/HONETi/items/128x128px/chest.png
+  - bundle: f5a0b51f4b850bdab88bc1789337d9f8.unity3d
+    path: Assets/HotUpdateResources/UI/HONETi/items/128x128px/clock.png
+  - bundle: f5a0b51f4b850bdab88bc1789337d9f8.unity3d
+    path: Assets/HotUpdateResources/UI/HONETi/items/128x128px/dog_tag.png
+  - bundle: f5a0b51f4b850bdab88bc1789337d9f8.unity3d
+    path: Assets/HotUpdateResources/UI/HONETi/items/128x128px/dynamite.png
+  - bundle: f5a0b51f4b850bdab88bc1789337d9f8.unity3d
+    path: Assets/HotUpdateResources/UI/HONETi/items/128x128px/flag.png
+  - bundle: f5a0b51f4b850bdab88bc1789337d9f8.unity3d
+    path: Assets/HotUpdateResources/UI/HONETi/items/128x128px/gloves.png
+  - bundle: f5a0b51f4b850bdab88bc1789337d9f8.unity3d
+    path: Assets/HotUpdateResources/UI/HONETi/items/128x128px/goggles.png
+  - bundle: f5a0b51f4b850bdab88bc1789337d9f8.unity3d
+    path: Assets/HotUpdateResources/UI/HONETi/items/128x128px/gun.png
+  - bundle: f5a0b51f4b850bdab88bc1789337d9f8.unity3d
+    path: Assets/HotUpdateResources/UI/HONETi/items/128x128px/hammer.png
+  - bundle: f5a0b51f4b850bdab88bc1789337d9f8.unity3d
+    path: Assets/HotUpdateResources/UI/HONETi/items/128x128px/helmet.png
+  - bundle: f5a0b51f4b850bdab88bc1789337d9f8.unity3d
+    path: Assets/HotUpdateResources/UI/HONETi/items/128x128px/key.png
+  - bundle: f5a0b51f4b850bdab88bc1789337d9f8.unity3d
+    path: Assets/HotUpdateResources/UI/HONETi/items/128x128px/magnet.png
+  - bundle: f5a0b51f4b850bdab88bc1789337d9f8.unity3d
+    path: Assets/HotUpdateResources/UI/HONETi/items/128x128px/pill.png
+  - bundle: f5a0b51f4b850bdab88bc1789337d9f8.unity3d
+    path: Assets/HotUpdateResources/UI/HONETi/items/128x128px/potion_01.png
+  - bundle: f5a0b51f4b850bdab88bc1789337d9f8.unity3d
+    path: Assets/HotUpdateResources/UI/HONETi/items/128x128px/potion_02.png
+  - bundle: f5a0b51f4b850bdab88bc1789337d9f8.unity3d
+    path: Assets/HotUpdateResources/UI/HONETi/items/128x128px/potion_03.png
+  - bundle: f5a0b51f4b850bdab88bc1789337d9f8.unity3d
+    path: Assets/HotUpdateResources/UI/HONETi/items/128x128px/potion_04.png
+  - bundle: f5a0b51f4b850bdab88bc1789337d9f8.unity3d
+    path: Assets/HotUpdateResources/UI/HONETi/items/128x128px/potion_05.png
+  - bundle: f5a0b51f4b850bdab88bc1789337d9f8.unity3d
+    path: Assets/HotUpdateResources/UI/HONETi/items/128x128px/potion_06.png
+  - bundle: f5a0b51f4b850bdab88bc1789337d9f8.unity3d
+    path: Assets/HotUpdateResources/UI/HONETi/items/128x128px/potion_air.png
+  - bundle: f5a0b51f4b850bdab88bc1789337d9f8.unity3d
+    path: Assets/HotUpdateResources/UI/HONETi/items/128x128px/potion_flame.png
+  - bundle: f5a0b51f4b850bdab88bc1789337d9f8.unity3d
+    path: Assets/HotUpdateResources/UI/HONETi/items/128x128px/potion_life.png
+  - bundle: f5a0b51f4b850bdab88bc1789337d9f8.unity3d
+    path: Assets/HotUpdateResources/UI/HONETi/items/128x128px/potion_lightning.png
+  - bundle: f5a0b51f4b850bdab88bc1789337d9f8.unity3d
+    path: Assets/HotUpdateResources/UI/HONETi/items/128x128px/potion_shield.png
+  - bundle: f5a0b51f4b850bdab88bc1789337d9f8.unity3d
+    path: Assets/HotUpdateResources/UI/HONETi/items/128x128px/potion_snow.png
+  - bundle: f5a0b51f4b850bdab88bc1789337d9f8.unity3d
+    path: Assets/HotUpdateResources/UI/HONETi/items/128x128px/potion_strength.png
+  - bundle: f5a0b51f4b850bdab88bc1789337d9f8.unity3d
+    path: Assets/HotUpdateResources/UI/HONETi/items/128x128px/potion_water.png
+  - bundle: f5a0b51f4b850bdab88bc1789337d9f8.unity3d
+    path: Assets/HotUpdateResources/UI/HONETi/items/128x128px/quiver.png
+  - bundle: f5a0b51f4b850bdab88bc1789337d9f8.unity3d
+    path: Assets/HotUpdateResources/UI/HONETi/items/128x128px/radio.png
+  - bundle: f5a0b51f4b850bdab88bc1789337d9f8.unity3d
+    path: Assets/HotUpdateResources/UI/HONETi/items/128x128px/shield_01.png
+  - bundle: f5a0b51f4b850bdab88bc1789337d9f8.unity3d
+    path: Assets/HotUpdateResources/UI/HONETi/items/128x128px/shield_02.png
+  - bundle: f5a0b51f4b850bdab88bc1789337d9f8.unity3d
+    path: Assets/HotUpdateResources/UI/HONETi/items/128x128px/shield_air.png
+  - bundle: f5a0b51f4b850bdab88bc1789337d9f8.unity3d
+    path: Assets/HotUpdateResources/UI/HONETi/items/128x128px/shield_fire.png
+  - bundle: f5a0b51f4b850bdab88bc1789337d9f8.unity3d
+    path: Assets/HotUpdateResources/UI/HONETi/items/128x128px/shield_leaf.png
+  - bundle: f5a0b51f4b850bdab88bc1789337d9f8.unity3d
+    path: Assets/HotUpdateResources/UI/HONETi/items/128x128px/shield_lightning.png
+  - bundle: f5a0b51f4b850bdab88bc1789337d9f8.unity3d
+    path: Assets/HotUpdateResources/UI/HONETi/items/128x128px/shield_snow.png
+  - bundle: f5a0b51f4b850bdab88bc1789337d9f8.unity3d
+    path: Assets/HotUpdateResources/UI/HONETi/items/128x128px/shield_water.png
+  - bundle: f5a0b51f4b850bdab88bc1789337d9f8.unity3d
+    path: Assets/HotUpdateResources/UI/HONETi/items/128x128px/skull.png
+  - bundle: f5a0b51f4b850bdab88bc1789337d9f8.unity3d
+    path: Assets/HotUpdateResources/UI/HONETi/items/128x128px/slingshot.png
+  - bundle: f5a0b51f4b850bdab88bc1789337d9f8.unity3d
+    path: Assets/HotUpdateResources/UI/HONETi/items/128x128px/slingshot_ammunition.png
+  - bundle: f5a0b51f4b850bdab88bc1789337d9f8.unity3d
+    path: Assets/HotUpdateResources/UI/HONETi/items/128x128px/sword.png
+  - bundle: 0d74160a27bf8271b34804a5ae2fec10.unity3d
+    path: Assets/HotUpdateResources/UI/HONETi/items/256x256px/ammunition.png
+  - bundle: 0d74160a27bf8271b34804a5ae2fec10.unity3d
+    path: Assets/HotUpdateResources/UI/HONETi/items/256x256px/arrows.png
+  - bundle: 0d74160a27bf8271b34804a5ae2fec10.unity3d
+    path: Assets/HotUpdateResources/UI/HONETi/items/256x256px/ax.png
+  - bundle: 0d74160a27bf8271b34804a5ae2fec10.unity3d
+    path: Assets/HotUpdateResources/UI/HONETi/items/256x256px/ax_double.png
+  - bundle: 0d74160a27bf8271b34804a5ae2fec10.unity3d
+    path: Assets/HotUpdateResources/UI/HONETi/items/256x256px/backpack.png
+  - bundle: 0d74160a27bf8271b34804a5ae2fec10.unity3d
+    path: Assets/HotUpdateResources/UI/HONETi/items/256x256px/bones.png
+  - bundle: 0d74160a27bf8271b34804a5ae2fec10.unity3d
+    path: Assets/HotUpdateResources/UI/HONETi/items/256x256px/boots.png
+  - bundle: 0d74160a27bf8271b34804a5ae2fec10.unity3d
+    path: Assets/HotUpdateResources/UI/HONETi/items/256x256px/bow.png
+  - bundle: 0d74160a27bf8271b34804a5ae2fec10.unity3d
+    path: Assets/HotUpdateResources/UI/HONETi/items/256x256px/chest.png
+  - bundle: 0d74160a27bf8271b34804a5ae2fec10.unity3d
+    path: Assets/HotUpdateResources/UI/HONETi/items/256x256px/clock.png
+  - bundle: 0d74160a27bf8271b34804a5ae2fec10.unity3d
+    path: Assets/HotUpdateResources/UI/HONETi/items/256x256px/dog_tag.png
+  - bundle: 0d74160a27bf8271b34804a5ae2fec10.unity3d
+    path: Assets/HotUpdateResources/UI/HONETi/items/256x256px/dynamite.png
+  - bundle: 0d74160a27bf8271b34804a5ae2fec10.unity3d
+    path: Assets/HotUpdateResources/UI/HONETi/items/256x256px/gloves.png
+  - bundle: 0d74160a27bf8271b34804a5ae2fec10.unity3d
+    path: Assets/HotUpdateResources/UI/HONETi/items/256x256px/goggles.png
+  - bundle: 0d74160a27bf8271b34804a5ae2fec10.unity3d
+    path: Assets/HotUpdateResources/UI/HONETi/items/256x256px/gun.png
+  - bundle: 0d74160a27bf8271b34804a5ae2fec10.unity3d
+    path: Assets/HotUpdateResources/UI/HONETi/items/256x256px/hammer.png
+  - bundle: 0d74160a27bf8271b34804a5ae2fec10.unity3d
+    path: Assets/HotUpdateResources/UI/HONETi/items/256x256px/helmet.png
+  - bundle: 0d74160a27bf8271b34804a5ae2fec10.unity3d
+    path: Assets/HotUpdateResources/UI/HONETi/items/256x256px/key.png
+  - bundle: 0d74160a27bf8271b34804a5ae2fec10.unity3d
+    path: Assets/HotUpdateResources/UI/HONETi/items/256x256px/magnet.png
+  - bundle: 0d74160a27bf8271b34804a5ae2fec10.unity3d
+    path: Assets/HotUpdateResources/UI/HONETi/items/256x256px/pill.png
+  - bundle: 0d74160a27bf8271b34804a5ae2fec10.unity3d
+    path: Assets/HotUpdateResources/UI/HONETi/items/256x256px/potion_01.png
+  - bundle: 0d74160a27bf8271b34804a5ae2fec10.unity3d
+    path: Assets/HotUpdateResources/UI/HONETi/items/256x256px/potion_02.png
+  - bundle: 0d74160a27bf8271b34804a5ae2fec10.unity3d
+    path: Assets/HotUpdateResources/UI/HONETi/items/256x256px/potion_03.png
+  - bundle: 0d74160a27bf8271b34804a5ae2fec10.unity3d
+    path: Assets/HotUpdateResources/UI/HONETi/items/256x256px/potion_04.png
+  - bundle: 0d74160a27bf8271b34804a5ae2fec10.unity3d
+    path: Assets/HotUpdateResources/UI/HONETi/items/256x256px/potion_05.png
+  - bundle: 0d74160a27bf8271b34804a5ae2fec10.unity3d
+    path: Assets/HotUpdateResources/UI/HONETi/items/256x256px/potion_06.png
+  - bundle: 0d74160a27bf8271b34804a5ae2fec10.unity3d
+    path: Assets/HotUpdateResources/UI/HONETi/items/256x256px/potion_air.png
+  - bundle: 0d74160a27bf8271b34804a5ae2fec10.unity3d
+    path: Assets/HotUpdateResources/UI/HONETi/items/256x256px/potion_flame.png
+  - bundle: 0d74160a27bf8271b34804a5ae2fec10.unity3d
+    path: Assets/HotUpdateResources/UI/HONETi/items/256x256px/potion_life.png
+  - bundle: 0d74160a27bf8271b34804a5ae2fec10.unity3d
+    path: Assets/HotUpdateResources/UI/HONETi/items/256x256px/potion_lightning.png
+  - bundle: 0d74160a27bf8271b34804a5ae2fec10.unity3d
+    path: Assets/HotUpdateResources/UI/HONETi/items/256x256px/potion_shield.png
+  - bundle: 0d74160a27bf8271b34804a5ae2fec10.unity3d
+    path: Assets/HotUpdateResources/UI/HONETi/items/256x256px/potion_snow.png
+  - bundle: 0d74160a27bf8271b34804a5ae2fec10.unity3d
+    path: Assets/HotUpdateResources/UI/HONETi/items/256x256px/potion_strength.png
+  - bundle: 0d74160a27bf8271b34804a5ae2fec10.unity3d
+    path: Assets/HotUpdateResources/UI/HONETi/items/256x256px/potion_water.png
+  - bundle: 0d74160a27bf8271b34804a5ae2fec10.unity3d
+    path: Assets/HotUpdateResources/UI/HONETi/items/256x256px/quiver.png
+  - bundle: 0d74160a27bf8271b34804a5ae2fec10.unity3d
+    path: Assets/HotUpdateResources/UI/HONETi/items/256x256px/radio.png
+  - bundle: 0d74160a27bf8271b34804a5ae2fec10.unity3d
+    path: Assets/HotUpdateResources/UI/HONETi/items/256x256px/shield_01.png
+  - bundle: 0d74160a27bf8271b34804a5ae2fec10.unity3d
+    path: Assets/HotUpdateResources/UI/HONETi/items/256x256px/shield_02.png
+  - bundle: 0d74160a27bf8271b34804a5ae2fec10.unity3d
+    path: Assets/HotUpdateResources/UI/HONETi/items/256x256px/shield_air.png
+  - bundle: 0d74160a27bf8271b34804a5ae2fec10.unity3d
+    path: Assets/HotUpdateResources/UI/HONETi/items/256x256px/shield_fire.png
+  - bundle: 0d74160a27bf8271b34804a5ae2fec10.unity3d
+    path: Assets/HotUpdateResources/UI/HONETi/items/256x256px/shield_leaf.png
+  - bundle: 0d74160a27bf8271b34804a5ae2fec10.unity3d
+    path: Assets/HotUpdateResources/UI/HONETi/items/256x256px/shield_lightning.png
+  - bundle: 0d74160a27bf8271b34804a5ae2fec10.unity3d
+    path: Assets/HotUpdateResources/UI/HONETi/items/256x256px/shield_snow.png
+  - bundle: 0d74160a27bf8271b34804a5ae2fec10.unity3d
+    path: Assets/HotUpdateResources/UI/HONETi/items/256x256px/shield_water.png
+  - bundle: 0d74160a27bf8271b34804a5ae2fec10.unity3d
+    path: Assets/HotUpdateResources/UI/HONETi/items/256x256px/skull.png
+  - bundle: 0d74160a27bf8271b34804a5ae2fec10.unity3d
+    path: Assets/HotUpdateResources/UI/HONETi/items/256x256px/slingshot.png
+  - bundle: 0d74160a27bf8271b34804a5ae2fec10.unity3d
+    path: Assets/HotUpdateResources/UI/HONETi/items/256x256px/slingshot_ammunition.png
+  - bundle: 0d74160a27bf8271b34804a5ae2fec10.unity3d
+    path: Assets/HotUpdateResources/UI/HONETi/items/256x256px/sword.png
+  - bundle: 523f3420ee7c70b9f3744323efe56252.unity3d
+    path: Assets/HotUpdateResources/UI/HONETi/items/32x32px/ammunition.png
+  - bundle: 523f3420ee7c70b9f3744323efe56252.unity3d
+    path: Assets/HotUpdateResources/UI/HONETi/items/32x32px/arrows.png
+  - bundle: 523f3420ee7c70b9f3744323efe56252.unity3d
+    path: Assets/HotUpdateResources/UI/HONETi/items/32x32px/ax.png
+  - bundle: 523f3420ee7c70b9f3744323efe56252.unity3d
+    path: Assets/HotUpdateResources/UI/HONETi/items/32x32px/ax_double.png
+  - bundle: 523f3420ee7c70b9f3744323efe56252.unity3d
+    path: Assets/HotUpdateResources/UI/HONETi/items/32x32px/backpack.png
+  - bundle: 523f3420ee7c70b9f3744323efe56252.unity3d
+    path: Assets/HotUpdateResources/UI/HONETi/items/32x32px/bones.png
+  - bundle: 523f3420ee7c70b9f3744323efe56252.unity3d
+    path: Assets/HotUpdateResources/UI/HONETi/items/32x32px/boots.png
+  - bundle: 523f3420ee7c70b9f3744323efe56252.unity3d
+    path: Assets/HotUpdateResources/UI/HONETi/items/32x32px/bow.png
+  - bundle: 523f3420ee7c70b9f3744323efe56252.unity3d
+    path: Assets/HotUpdateResources/UI/HONETi/items/32x32px/chest.png
+  - bundle: 523f3420ee7c70b9f3744323efe56252.unity3d
+    path: Assets/HotUpdateResources/UI/HONETi/items/32x32px/clock.png
+  - bundle: 523f3420ee7c70b9f3744323efe56252.unity3d
+    path: Assets/HotUpdateResources/UI/HONETi/items/32x32px/dog_tag.png
+  - bundle: 523f3420ee7c70b9f3744323efe56252.unity3d
+    path: Assets/HotUpdateResources/UI/HONETi/items/32x32px/dynamite.png
+  - bundle: 523f3420ee7c70b9f3744323efe56252.unity3d
+    path: Assets/HotUpdateResources/UI/HONETi/items/32x32px/flag.png
+  - bundle: 523f3420ee7c70b9f3744323efe56252.unity3d
+    path: Assets/HotUpdateResources/UI/HONETi/items/32x32px/gloves.png
+  - bundle: 523f3420ee7c70b9f3744323efe56252.unity3d
+    path: Assets/HotUpdateResources/UI/HONETi/items/32x32px/goggles.png
+  - bundle: 523f3420ee7c70b9f3744323efe56252.unity3d
+    path: Assets/HotUpdateResources/UI/HONETi/items/32x32px/gun.png
+  - bundle: 523f3420ee7c70b9f3744323efe56252.unity3d
+    path: Assets/HotUpdateResources/UI/HONETi/items/32x32px/hammer.png
+  - bundle: 523f3420ee7c70b9f3744323efe56252.unity3d
+    path: Assets/HotUpdateResources/UI/HONETi/items/32x32px/helmet.png
+  - bundle: 523f3420ee7c70b9f3744323efe56252.unity3d
+    path: Assets/HotUpdateResources/UI/HONETi/items/32x32px/key.png
+  - bundle: 523f3420ee7c70b9f3744323efe56252.unity3d
+    path: Assets/HotUpdateResources/UI/HONETi/items/32x32px/magnet.png
+  - bundle: 523f3420ee7c70b9f3744323efe56252.unity3d
+    path: Assets/HotUpdateResources/UI/HONETi/items/32x32px/pill.png
+  - bundle: 523f3420ee7c70b9f3744323efe56252.unity3d
+    path: Assets/HotUpdateResources/UI/HONETi/items/32x32px/potion_01.png
+  - bundle: 523f3420ee7c70b9f3744323efe56252.unity3d
+    path: Assets/HotUpdateResources/UI/HONETi/items/32x32px/potion_02.png
+  - bundle: 523f3420ee7c70b9f3744323efe56252.unity3d
+    path: Assets/HotUpdateResources/UI/HONETi/items/32x32px/potion_03.png
+  - bundle: 523f3420ee7c70b9f3744323efe56252.unity3d
+    path: Assets/HotUpdateResources/UI/HONETi/items/32x32px/potion_04.png
+  - bundle: 523f3420ee7c70b9f3744323efe56252.unity3d
+    path: Assets/HotUpdateResources/UI/HONETi/items/32x32px/potion_05.png
+  - bundle: 523f3420ee7c70b9f3744323efe56252.unity3d
+    path: Assets/HotUpdateResources/UI/HONETi/items/32x32px/potion_06.png
+  - bundle: 523f3420ee7c70b9f3744323efe56252.unity3d
+    path: Assets/HotUpdateResources/UI/HONETi/items/32x32px/potion_air.png
+  - bundle: 523f3420ee7c70b9f3744323efe56252.unity3d
+    path: Assets/HotUpdateResources/UI/HONETi/items/32x32px/potion_flame.png
+  - bundle: 523f3420ee7c70b9f3744323efe56252.unity3d
+    path: Assets/HotUpdateResources/UI/HONETi/items/32x32px/potion_life.png
+  - bundle: 523f3420ee7c70b9f3744323efe56252.unity3d
+    path: Assets/HotUpdateResources/UI/HONETi/items/32x32px/potion_lightning.png
+  - bundle: 523f3420ee7c70b9f3744323efe56252.unity3d
+    path: Assets/HotUpdateResources/UI/HONETi/items/32x32px/potion_shield.png
+  - bundle: 523f3420ee7c70b9f3744323efe56252.unity3d
+    path: Assets/HotUpdateResources/UI/HONETi/items/32x32px/potion_snow.png
+  - bundle: 523f3420ee7c70b9f3744323efe56252.unity3d
+    path: Assets/HotUpdateResources/UI/HONETi/items/32x32px/potion_strength.png
+  - bundle: 523f3420ee7c70b9f3744323efe56252.unity3d
+    path: Assets/HotUpdateResources/UI/HONETi/items/32x32px/potion_water.png
+  - bundle: 523f3420ee7c70b9f3744323efe56252.unity3d
+    path: Assets/HotUpdateResources/UI/HONETi/items/32x32px/quiver.png
+  - bundle: 523f3420ee7c70b9f3744323efe56252.unity3d
+    path: Assets/HotUpdateResources/UI/HONETi/items/32x32px/radio.png
+  - bundle: 523f3420ee7c70b9f3744323efe56252.unity3d
+    path: Assets/HotUpdateResources/UI/HONETi/items/32x32px/shield_01.png
+  - bundle: 523f3420ee7c70b9f3744323efe56252.unity3d
+    path: Assets/HotUpdateResources/UI/HONETi/items/32x32px/shield_02.png
+  - bundle: 523f3420ee7c70b9f3744323efe56252.unity3d
+    path: Assets/HotUpdateResources/UI/HONETi/items/32x32px/shield_air.png
+  - bundle: 523f3420ee7c70b9f3744323efe56252.unity3d
+    path: Assets/HotUpdateResources/UI/HONETi/items/32x32px/shield_fire.png
+  - bundle: 523f3420ee7c70b9f3744323efe56252.unity3d
+    path: Assets/HotUpdateResources/UI/HONETi/items/32x32px/shield_leaf.png
+  - bundle: 523f3420ee7c70b9f3744323efe56252.unity3d
+    path: Assets/HotUpdateResources/UI/HONETi/items/32x32px/shield_lightning.png
+  - bundle: 523f3420ee7c70b9f3744323efe56252.unity3d
+    path: Assets/HotUpdateResources/UI/HONETi/items/32x32px/shield_snow.png
+  - bundle: 523f3420ee7c70b9f3744323efe56252.unity3d
+    path: Assets/HotUpdateResources/UI/HONETi/items/32x32px/shield_water.png
+  - bundle: 523f3420ee7c70b9f3744323efe56252.unity3d
+    path: Assets/HotUpdateResources/UI/HONETi/items/32x32px/skull.png
+  - bundle: 523f3420ee7c70b9f3744323efe56252.unity3d
+    path: Assets/HotUpdateResources/UI/HONETi/items/32x32px/slingshot.png
+  - bundle: 523f3420ee7c70b9f3744323efe56252.unity3d
+    path: Assets/HotUpdateResources/UI/HONETi/items/32x32px/slingshot_ammunition.png
+  - bundle: 523f3420ee7c70b9f3744323efe56252.unity3d
+    path: Assets/HotUpdateResources/UI/HONETi/items/32x32px/sword.png
+  - bundle: ce4b13f954ae192361bb8874a7883380.unity3d
+    path: Assets/HotUpdateResources/UI/HONETi/items/64x64px/ammunition.png
+  - bundle: ce4b13f954ae192361bb8874a7883380.unity3d
+    path: Assets/HotUpdateResources/UI/HONETi/items/64x64px/arrows.png
+  - bundle: ce4b13f954ae192361bb8874a7883380.unity3d
+    path: Assets/HotUpdateResources/UI/HONETi/items/64x64px/ax.png
+  - bundle: ce4b13f954ae192361bb8874a7883380.unity3d
+    path: Assets/HotUpdateResources/UI/HONETi/items/64x64px/ax_double.png
+  - bundle: ce4b13f954ae192361bb8874a7883380.unity3d
+    path: Assets/HotUpdateResources/UI/HONETi/items/64x64px/backpack.png
+  - bundle: ce4b13f954ae192361bb8874a7883380.unity3d
+    path: Assets/HotUpdateResources/UI/HONETi/items/64x64px/bones.png
+  - bundle: ce4b13f954ae192361bb8874a7883380.unity3d
+    path: Assets/HotUpdateResources/UI/HONETi/items/64x64px/boots.png
+  - bundle: ce4b13f954ae192361bb8874a7883380.unity3d
+    path: Assets/HotUpdateResources/UI/HONETi/items/64x64px/bow.png
+  - bundle: ce4b13f954ae192361bb8874a7883380.unity3d
+    path: Assets/HotUpdateResources/UI/HONETi/items/64x64px/chest.png
+  - bundle: ce4b13f954ae192361bb8874a7883380.unity3d
+    path: Assets/HotUpdateResources/UI/HONETi/items/64x64px/clock.png
+  - bundle: ce4b13f954ae192361bb8874a7883380.unity3d
+    path: Assets/HotUpdateResources/UI/HONETi/items/64x64px/dog_tag.png
+  - bundle: ce4b13f954ae192361bb8874a7883380.unity3d
+    path: Assets/HotUpdateResources/UI/HONETi/items/64x64px/dynamite.png
+  - bundle: ce4b13f954ae192361bb8874a7883380.unity3d
+    path: Assets/HotUpdateResources/UI/HONETi/items/64x64px/flag.png
+  - bundle: ce4b13f954ae192361bb8874a7883380.unity3d
+    path: Assets/HotUpdateResources/UI/HONETi/items/64x64px/gloves.png
+  - bundle: ce4b13f954ae192361bb8874a7883380.unity3d
+    path: Assets/HotUpdateResources/UI/HONETi/items/64x64px/goggles.png
+  - bundle: ce4b13f954ae192361bb8874a7883380.unity3d
+    path: Assets/HotUpdateResources/UI/HONETi/items/64x64px/gun.png
+  - bundle: ce4b13f954ae192361bb8874a7883380.unity3d
+    path: Assets/HotUpdateResources/UI/HONETi/items/64x64px/hammer.png
+  - bundle: ce4b13f954ae192361bb8874a7883380.unity3d
+    path: Assets/HotUpdateResources/UI/HONETi/items/64x64px/helmet.png
+  - bundle: ce4b13f954ae192361bb8874a7883380.unity3d
+    path: Assets/HotUpdateResources/UI/HONETi/items/64x64px/key.png
+  - bundle: ce4b13f954ae192361bb8874a7883380.unity3d
+    path: Assets/HotUpdateResources/UI/HONETi/items/64x64px/magnet.png
+  - bundle: ce4b13f954ae192361bb8874a7883380.unity3d
+    path: Assets/HotUpdateResources/UI/HONETi/items/64x64px/pill.png
+  - bundle: ce4b13f954ae192361bb8874a7883380.unity3d
+    path: Assets/HotUpdateResources/UI/HONETi/items/64x64px/potion_01.png
+  - bundle: ce4b13f954ae192361bb8874a7883380.unity3d
+    path: Assets/HotUpdateResources/UI/HONETi/items/64x64px/potion_02.png
+  - bundle: ce4b13f954ae192361bb8874a7883380.unity3d
+    path: Assets/HotUpdateResources/UI/HONETi/items/64x64px/potion_03.png
+  - bundle: ce4b13f954ae192361bb8874a7883380.unity3d
+    path: Assets/HotUpdateResources/UI/HONETi/items/64x64px/potion_04.png
+  - bundle: ce4b13f954ae192361bb8874a7883380.unity3d
+    path: Assets/HotUpdateResources/UI/HONETi/items/64x64px/potion_05.png
+  - bundle: ce4b13f954ae192361bb8874a7883380.unity3d
+    path: Assets/HotUpdateResources/UI/HONETi/items/64x64px/potion_06.png
+  - bundle: ce4b13f954ae192361bb8874a7883380.unity3d
+    path: Assets/HotUpdateResources/UI/HONETi/items/64x64px/potion_air.png
+  - bundle: ce4b13f954ae192361bb8874a7883380.unity3d
+    path: Assets/HotUpdateResources/UI/HONETi/items/64x64px/potion_flame.png
+  - bundle: ce4b13f954ae192361bb8874a7883380.unity3d
+    path: Assets/HotUpdateResources/UI/HONETi/items/64x64px/potion_life.png
+  - bundle: ce4b13f954ae192361bb8874a7883380.unity3d
+    path: Assets/HotUpdateResources/UI/HONETi/items/64x64px/potion_lightning.png
+  - bundle: ce4b13f954ae192361bb8874a7883380.unity3d
+    path: Assets/HotUpdateResources/UI/HONETi/items/64x64px/potion_shield.png
+  - bundle: ce4b13f954ae192361bb8874a7883380.unity3d
+    path: Assets/HotUpdateResources/UI/HONETi/items/64x64px/potion_snow.png
+  - bundle: ce4b13f954ae192361bb8874a7883380.unity3d
+    path: Assets/HotUpdateResources/UI/HONETi/items/64x64px/potion_strength.png
+  - bundle: ce4b13f954ae192361bb8874a7883380.unity3d
+    path: Assets/HotUpdateResources/UI/HONETi/items/64x64px/potion_water.png
+  - bundle: ce4b13f954ae192361bb8874a7883380.unity3d
+    path: Assets/HotUpdateResources/UI/HONETi/items/64x64px/quiver.png
+  - bundle: ce4b13f954ae192361bb8874a7883380.unity3d
+    path: Assets/HotUpdateResources/UI/HONETi/items/64x64px/radio.png
+  - bundle: ce4b13f954ae192361bb8874a7883380.unity3d
+    path: Assets/HotUpdateResources/UI/HONETi/items/64x64px/shield_01.png
+  - bundle: ce4b13f954ae192361bb8874a7883380.unity3d
+    path: Assets/HotUpdateResources/UI/HONETi/items/64x64px/shield_02.png
+  - bundle: ce4b13f954ae192361bb8874a7883380.unity3d
+    path: Assets/HotUpdateResources/UI/HONETi/items/64x64px/shield_air.png
+  - bundle: ce4b13f954ae192361bb8874a7883380.unity3d
+    path: Assets/HotUpdateResources/UI/HONETi/items/64x64px/shield_fire.png
+  - bundle: ce4b13f954ae192361bb8874a7883380.unity3d
+    path: Assets/HotUpdateResources/UI/HONETi/items/64x64px/shield_leaf.png
+  - bundle: ce4b13f954ae192361bb8874a7883380.unity3d
+    path: Assets/HotUpdateResources/UI/HONETi/items/64x64px/shield_lightning.png
+  - bundle: ce4b13f954ae192361bb8874a7883380.unity3d
+    path: Assets/HotUpdateResources/UI/HONETi/items/64x64px/shield_snow.png
+  - bundle: ce4b13f954ae192361bb8874a7883380.unity3d
+    path: Assets/HotUpdateResources/UI/HONETi/items/64x64px/shield_water.png
+  - bundle: ce4b13f954ae192361bb8874a7883380.unity3d
+    path: Assets/HotUpdateResources/UI/HONETi/items/64x64px/skull.png
+  - bundle: ce4b13f954ae192361bb8874a7883380.unity3d
+    path: Assets/HotUpdateResources/UI/HONETi/items/64x64px/slingshot.png
+  - bundle: ce4b13f954ae192361bb8874a7883380.unity3d
+    path: Assets/HotUpdateResources/UI/HONETi/items/64x64px/slingshot_ammunition.png
+  - bundle: ce4b13f954ae192361bb8874a7883380.unity3d
+    path: Assets/HotUpdateResources/UI/HONETi/items/64x64px/sword.png
+  - bundle: 68855be8bf84934712bd7f59f93e54cc.unity3d
+    path: Assets/HotUpdateResources/UI/HONETi/levels/levels_star.png
+  - bundle: 68855be8bf84934712bd7f59f93e54cc.unity3d
+    path: Assets/HotUpdateResources/UI/HONETi/levels/skull_n_bones.png
+  - bundle: 8175ff1e2f781c4edb03501655593530.unity3d
+    path: Assets/HotUpdateResources/UI/HONETi/panels/avatar_s.png
+  - bundle: 8175ff1e2f781c4edb03501655593530.unity3d
+    path: Assets/HotUpdateResources/UI/HONETi/panels/bottom_bar_bg.png
+  - bundle: 8175ff1e2f781c4edb03501655593530.unity3d
+    path: Assets/HotUpdateResources/UI/HONETi/panels/chat_cloud_l.png
+  - bundle: 8175ff1e2f781c4edb03501655593530.unity3d
+    path: Assets/HotUpdateResources/UI/HONETi/panels/chat_cloud_r.png
+  - bundle: 8175ff1e2f781c4edb03501655593530.unity3d
+    path: Assets/HotUpdateResources/UI/HONETi/panels/corners_bg.png
+  - bundle: 8175ff1e2f781c4edb03501655593530.unity3d
+    path: Assets/HotUpdateResources/UI/HONETi/panels/corners_stroke_bg.png
+  - bundle: 8175ff1e2f781c4edb03501655593530.unity3d
+    path: Assets/HotUpdateResources/UI/HONETi/panels/input_field.png
+  - bundle: 8175ff1e2f781c4edb03501655593530.unity3d
+    path: Assets/HotUpdateResources/UI/HONETi/panels/input_field_filled.png
+  - bundle: 8175ff1e2f781c4edb03501655593530.unity3d
+    path: Assets/HotUpdateResources/UI/HONETi/panels/rectangle_bg.png
+  - bundle: 8175ff1e2f781c4edb03501655593530.unity3d
+    path: Assets/HotUpdateResources/UI/HONETi/panels/rectangle_stroke_bg.png
+  - bundle: 8175ff1e2f781c4edb03501655593530.unity3d
+    path: Assets/HotUpdateResources/UI/HONETi/panels/section_bg_corner.png
+  - bundle: 8175ff1e2f781c4edb03501655593530.unity3d
+    path: Assets/HotUpdateResources/UI/HONETi/panels/side_bar.png
+  - bundle: 8175ff1e2f781c4edb03501655593530.unity3d
+    path: Assets/HotUpdateResources/UI/HONETi/panels/title_bg.png
+  - bundle: 8175ff1e2f781c4edb03501655593530.unity3d
+    path: Assets/HotUpdateResources/UI/HONETi/panels/top_bar_bg.png
+  - bundle: 8175ff1e2f781c4edb03501655593530.unity3d
+    path: Assets/HotUpdateResources/UI/HONETi/panels/top_bar_bg_white.png
+  - bundle: 8175ff1e2f781c4edb03501655593530.unity3d
+    path: Assets/HotUpdateResources/UI/HONETi/panels/window_bg.png
+  - bundle: 8175ff1e2f781c4edb03501655593530.unity3d
+    path: Assets/HotUpdateResources/UI/HONETi/panels/window_stroke.png
+  - bundle: 8175ff1e2f781c4edb03501655593530.unity3d
+    path: Assets/HotUpdateResources/UI/HONETi/panels/window_x.png
+  - bundle: a2c4c949736272ee722bf5d504d16402.unity3d
+    path: Assets/HotUpdateResources/UI/HONETi/state_bars/progress_bar_fill.png
+  - bundle: a2c4c949736272ee722bf5d504d16402.unity3d
+    path: Assets/HotUpdateResources/UI/HONETi/state_bars/state_bar.png
+  - bundle: a2c4c949736272ee722bf5d504d16402.unity3d
+    path: Assets/HotUpdateResources/UI/HONETi/state_bars/state_bar_r.png
+  - bundle: 51cb3bc3f3fcf3763518ab86c35b1f2a.unity3d
+    path: Assets/HotUpdateResources/UI/Sprites/cert.png
+  - bundle: 51cb3bc3f3fcf3763518ab86c35b1f2a.unity3d
+    path: Assets/HotUpdateResources/UI/Sprites/cert_frag.png
+  - bundle: 51cb3bc3f3fcf3763518ab86c35b1f2a.unity3d
+    path: Assets/HotUpdateResources/UI/Sprites/coin.png
+  - bundle: 51cb3bc3f3fcf3763518ab86c35b1f2a.unity3d
+    path: Assets/HotUpdateResources/UI/Sprites/coin_plus.png
+  - bundle: 51cb3bc3f3fcf3763518ab86c35b1f2a.unity3d
+    path: Assets/HotUpdateResources/UI/Sprites/flag.png
+  - bundle: 51cb3bc3f3fcf3763518ab86c35b1f2a.unity3d
+    path: Assets/HotUpdateResources/UI/Sprites/home.png
+  - bundle: 51cb3bc3f3fcf3763518ab86c35b1f2a.unity3d
+    path: Assets/HotUpdateResources/UI/Sprites/off.png
+  - bundle: 51cb3bc3f3fcf3763518ab86c35b1f2a.unity3d
+    path: Assets/HotUpdateResources/UI/Sprites/on.png
+  - bundle: 51cb3bc3f3fcf3763518ab86c35b1f2a.unity3d
+    path: Assets/HotUpdateResources/UI/Sprites/people.png
+  - bundle: 51cb3bc3f3fcf3763518ab86c35b1f2a.unity3d
+    path: Assets/HotUpdateResources/UI/Sprites/speaker_high.png
+  - bundle: 51cb3bc3f3fcf3763518ab86c35b1f2a.unity3d
+    path: Assets/HotUpdateResources/UI/Sprites/speaker_mute.png
+  - bundle: 51cb3bc3f3fcf3763518ab86c35b1f2a.unity3d
+    path: Assets/HotUpdateResources/UI/Sprites/star.png
+  - bundle: 51cb3bc3f3fcf3763518ab86c35b1f2a.unity3d
+    path: Assets/HotUpdateResources/UI/Sprites/thief.png
+  - bundle: 51cb3bc3f3fcf3763518ab86c35b1f2a.unity3d
+    path: Assets/HotUpdateResources/UI/Sprites/unknown.png
+  - bundle: 51cb3bc3f3fcf3763518ab86c35b1f2a.unity3d
+    path: Assets/HotUpdateResources/UI/Sprites/zhi.png
+  - bundle: 51cb3bc3f3fcf3763518ab86c35b1f2a.unity3d
+    path: Assets/HotUpdateResources/UI/Sprites/zhu.png
+  - bundle: 7d5951ecb315719f03f6a6f3a0a7b6b4.unity3d
+    path: Assets/HotUpdateResources/UI/Textures/btn.png
+  - bundle: 7d5951ecb315719f03f6a6f3a0a7b6b4.unity3d
+    path: Assets/HotUpdateResources/UI/Textures/caidai.png
+  - bundle: 7d5951ecb315719f03f6a6f3a0a7b6b4.unity3d
+    path: Assets/HotUpdateResources/UI/Textures/close.png
+  - bundle: 7d5951ecb315719f03f6a6f3a0a7b6b4.unity3d
+    path: Assets/HotUpdateResources/UI/Textures/frame.png
+  - bundle: 7d5951ecb315719f03f6a6f3a0a7b6b4.unity3d
+    path: Assets/HotUpdateResources/UI/Textures/head.png
+  - bundle: 7d5951ecb315719f03f6a6f3a0a7b6b4.unity3d
+    path: Assets/HotUpdateResources/UI/Textures/line.png
+  ruleBundles:
+  - name: 169c8689b98cb20d39489c1c3de9b970.unity3d
+    assets:
+    - Assets/HotUpdateResources/Controller/Animations/Effects/Fade/ShowFade.controller
+  - name: 0c7fb679572a32c9759dbecd846dbe73.unity3d
+    assets:
+    - Assets/HotUpdateResources/Controller/Animations/Effects/Spin/DoSpin.controller
+  - name: d921fb60d76cf5d2781768d2ffb406e6.unity3d
+    assets:
+    - Assets/HotUpdateResources/Controller/Animations/Panels/Award/AwardShowPanel.controller
+  - name: a7bbe57dc96f2ca4228e47389320034a.unity3d
+    assets:
+    - Assets/HotUpdateResources/Controller/Animations/Panels/Tips/TipsPanel.controller
+  - name: 6c921d0e616edb457035dc5b23252486.unity3d
+    assets:
+    - Assets/HotUpdateResources/Controller/Animations/Red/Red.controller
+  - name: f1e9148d33abaae32bb165f217c22e91.unity3d
+    assets:
+    - Assets/HotUpdateResources/Dll/HotUpdateScripts.bytes
+  - name: bc76c5b00ec9222f12185d8675be35c1.unity3d
+    assets:
+    - Assets/HotUpdateResources/Other/bgm.mp3
+  - name: f027f62d736f2b9930b079d86f3b90c2.unity3d
+    assets:
+    - Assets/HotUpdateResources/Other/impact.ttf
+  - name: 5ee6f503422d0d30f35ab0cbfbf4e25c.unity3d
+    assets:
+    - Assets/HotUpdateResources/Prefab/AwardPanel.prefab
+  - name: 9cd2650c400662c672fb85854e5c09f5.unity3d
+    assets:
+    - Assets/HotUpdateResources/Prefab/BagPanel.prefab
+  - name: 51b7885a0f864e4880495cb6925dfab7.unity3d
+    assets:
+    - Assets/HotUpdateResources/Prefab/EventPanel.prefab
+  - name: d7d828e75795eb65d458856147bd7d79.unity3d
+    assets:
+    - Assets/HotUpdateResources/Prefab/GalleryItem.prefab
+  - name: 78ca619e8d1082e054849e0c24cf7201.unity3d
+    assets:
+    - Assets/HotUpdateResources/Prefab/LoginPanel.prefab
+  - name: 4389473da541c9f21c36a0f7815a0308.unity3d
+    assets:
+    - Assets/HotUpdateResources/Prefab/PropertyPanel.prefab
+  - name: 337ea0523d8d715576143401c16e5a78.unity3d
+    assets:
+    - Assets/HotUpdateResources/Prefab/RankPanel.prefab
+  - name: 4f0c80d1be4814004d40d543790bce62.unity3d
+    assets:
+    - Assets/HotUpdateResources/Prefab/TaskPanel.prefab
+  - name: ceddc0c9b3c8bf92a5649c7282074eed.unity3d
+    assets:
+    - Assets/HotUpdateResources/Scene/Game.unity
+  - name: 2b816807df25e121dbbd3a5004da29e7.unity3d
+    assets:
+    - Assets/HotUpdateResources/ScriptableObject/Version.asset
+  - name: f88f702ad9cbd4af390b55805ebbb8e5.unity3d
+    assets:
+    - Assets/HotUpdateResources/TextAsset/prop_cfg.json
+  - name: 67154bae314776974bfe617c8f68aa77.unity3d
+    assets:
+    - Assets/HotUpdateResources/TextAsset/property_cfg.json
+  - name: 4b8a8c448e47343b827e56435df72857.unity3d
+    assets:
+    - Assets/HotUpdateResources/TextAsset/task_cfg.json
+  - name: f2863909cb4d99e3e29a67c1e7d3a4ca.unity3d
+    assets:
+    - Assets/HotUpdateResources/TextAsset/task_desc.json
+  - name: 6409362d6eb671d168aa187271cd33a8.unity3d
+    assets:
+    - Assets/HotUpdateResources/TextAsset/Localization.csv
+  - name: bf0b116501de462535f9d0dac0b966bc.unity3d
+    assets:
+    - Assets/HotUpdateResources/UI/HONETi/additional_sizes/buttons/outline_buttons/basic/outline_basic.png
+    - Assets/HotUpdateResources/UI/HONETi/additional_sizes/buttons/outline_buttons/basic/outline_basic_down.png
+    - Assets/HotUpdateResources/UI/HONETi/additional_sizes/buttons/outline_buttons/basic/outline_basic_hover.png
+    - Assets/HotUpdateResources/UI/HONETi/additional_sizes/buttons/outline_buttons/basic/outline_basic_inactive.png
+  - name: eedaffdf515e4cd1026022c3da1bbcf4.unity3d
+    assets:
+    - Assets/HotUpdateResources/UI/HONETi/additional_sizes/buttons/outline_buttons/corner/outline_corner.png
+    - Assets/HotUpdateResources/UI/HONETi/additional_sizes/buttons/outline_buttons/corner/outline_corner_down.png
+    - Assets/HotUpdateResources/UI/HONETi/additional_sizes/buttons/outline_buttons/corner/outline_corner_hover.png
+    - Assets/HotUpdateResources/UI/HONETi/additional_sizes/buttons/outline_buttons/corner/outline_corner_inactive.png
+  - name: c5d69c02c7d9f28296b662c24fdf97a5.unity3d
+    assets:
+    - Assets/HotUpdateResources/UI/HONETi/additional_sizes/buttons/outline_buttons/corners/outline_corners.png
+    - Assets/HotUpdateResources/UI/HONETi/additional_sizes/buttons/outline_buttons/corners/outline_corners_down.png
+    - Assets/HotUpdateResources/UI/HONETi/additional_sizes/buttons/outline_buttons/corners/outline_corners_hover.png
+    - Assets/HotUpdateResources/UI/HONETi/additional_sizes/buttons/outline_buttons/corners/outline_corners_inactive.png
+  - name: 8a96daf57f6189729ab4ec336f2f6195.unity3d
+    assets:
+    - Assets/HotUpdateResources/UI/HONETi/additional_sizes/buttons/regular_buttons/button_basic.png
+    - Assets/HotUpdateResources/UI/HONETi/additional_sizes/buttons/regular_buttons/button_corner.png
+    - Assets/HotUpdateResources/UI/HONETi/additional_sizes/buttons/regular_buttons/button_corners.png
+  - name: 711a6270333a6068db63ad5d49edbddc.unity3d
+    assets:
+    - Assets/HotUpdateResources/UI/HONETi/additional_sizes/buttons/top_bar_buttons/button_l.png
+    - Assets/HotUpdateResources/UI/HONETi/additional_sizes/buttons/top_bar_buttons/button_m.png
+    - Assets/HotUpdateResources/UI/HONETi/additional_sizes/buttons/top_bar_buttons/button_r.png
+  - name: 648692058fb7c7343e0a7690e20f2c89.unity3d
+    assets:
+    - Assets/HotUpdateResources/UI/HONETi/additional_sizes/controls/scroll_handle_h.png
+    - Assets/HotUpdateResources/UI/HONETi/additional_sizes/controls/scroll_handle_v.png
+    - Assets/HotUpdateResources/UI/HONETi/additional_sizes/controls/slider_handle.png
+    - Assets/HotUpdateResources/UI/HONETi/additional_sizes/controls/switch_off.png
+    - Assets/HotUpdateResources/UI/HONETi/additional_sizes/controls/switch_on.png
+    - Assets/HotUpdateResources/UI/HONETi/additional_sizes/controls/toggle_on.png
+  - name: 37fa80fca78a9804f3ec4c015d911f78.unity3d
+    assets:
+    - Assets/HotUpdateResources/UI/HONETi/additional_sizes/globe/globe_bg.png
+    - Assets/HotUpdateResources/UI/HONETi/additional_sizes/globe/globe_fill.png
+  - name: 48e766ef38031d33c9ae4d2e07915996.unity3d
+    assets:
+    - Assets/HotUpdateResources/UI/HONETi/additional_sizes/panels/bottom_bar_bg.png
+    - Assets/HotUpdateResources/UI/HONETi/additional_sizes/panels/chat_cloud_l.png
+    - Assets/HotUpdateResources/UI/HONETi/additional_sizes/panels/chat_cloud_r.png
+    - Assets/HotUpdateResources/UI/HONETi/additional_sizes/panels/corner_bg.png
+    - Assets/HotUpdateResources/UI/HONETi/additional_sizes/panels/input_field.png
+    - Assets/HotUpdateResources/UI/HONETi/additional_sizes/panels/input_field_filled.png
+    - Assets/HotUpdateResources/UI/HONETi/additional_sizes/panels/section_bg.png
+    - Assets/HotUpdateResources/UI/HONETi/additional_sizes/panels/section_outline.png
+    - Assets/HotUpdateResources/UI/HONETi/additional_sizes/panels/side_bar_bg.png
+    - Assets/HotUpdateResources/UI/HONETi/additional_sizes/panels/title_bar.png
+    - Assets/HotUpdateResources/UI/HONETi/additional_sizes/panels/top_bar_bg.png
+    - Assets/HotUpdateResources/UI/HONETi/additional_sizes/panels/window_bg.png
+    - Assets/HotUpdateResources/UI/HONETi/additional_sizes/panels/window_bg_white.png
+    - Assets/HotUpdateResources/UI/HONETi/additional_sizes/panels/window_stroke.png
+    - "Assets/HotUpdateResources/UI/HONETi/additional_sizes/panels/window_\xD7.png"
+  - name: ce1616646d6870996d26e15c3b2c06d9.unity3d
+    assets:
+    - Assets/HotUpdateResources/UI/HONETi/additional_sizes/state_bars/fill.png
+    - Assets/HotUpdateResources/UI/HONETi/additional_sizes/state_bars/state_bar.png
+    - Assets/HotUpdateResources/UI/HONETi/additional_sizes/state_bars/state_bar_2.png
+  - name: 2cc9c29f7980294709e4d42f715fcda2.unity3d
+    assets:
+    - Assets/HotUpdateResources/UI/HONETi/buttons/button_basic.png
+    - Assets/HotUpdateResources/UI/HONETi/buttons/button_corner.png
+    - Assets/HotUpdateResources/UI/HONETi/buttons/button_corners.png
+  - name: b8fa3978c612a3157e2dae62fb7fc487.unity3d
+    assets:
+    - Assets/HotUpdateResources/UI/HONETi/buttons/outline_buttons/basic/button_outline_basic.png
+    - Assets/HotUpdateResources/UI/HONETi/buttons/outline_buttons/basic/button_outline_basic_down.png
+    - Assets/HotUpdateResources/UI/HONETi/buttons/outline_buttons/basic/button_outline_basic_hover.png
+    - Assets/HotUpdateResources/UI/HONETi/buttons/outline_buttons/basic/button_outline_basic_inactive.png
+  - name: d9ed2416e35e8839f55423e79631909a.unity3d
+    assets:
+    - Assets/HotUpdateResources/UI/HONETi/buttons/outline_buttons/corner/button_outline_corner.png
+    - Assets/HotUpdateResources/UI/HONETi/buttons/outline_buttons/corner/button_outline_corner_down.png
+    - Assets/HotUpdateResources/UI/HONETi/buttons/outline_buttons/corner/button_outline_corner_hover.png
+    - Assets/HotUpdateResources/UI/HONETi/buttons/outline_buttons/corner/button_outline_corner_inactive.png
+  - name: 02f05d6ab451f5fd256c269663ed27a2.unity3d
+    assets:
+    - Assets/HotUpdateResources/UI/HONETi/buttons/outline_buttons/corners/button_outline.png
+    - Assets/HotUpdateResources/UI/HONETi/buttons/outline_buttons/corners/button_outline_disabled.png
+    - Assets/HotUpdateResources/UI/HONETi/buttons/outline_buttons/corners/button_outline_down.png
+    - Assets/HotUpdateResources/UI/HONETi/buttons/outline_buttons/corners/button_outline_flip.png
+    - Assets/HotUpdateResources/UI/HONETi/buttons/outline_buttons/corners/button_outline_flip_disabled.png
+    - Assets/HotUpdateResources/UI/HONETi/buttons/outline_buttons/corners/button_outline_flip_down.png
+    - Assets/HotUpdateResources/UI/HONETi/buttons/outline_buttons/corners/button_outline_flip_hover.png
+    - Assets/HotUpdateResources/UI/HONETi/buttons/outline_buttons/corners/button_outline_hover.png
+  - name: 6646188f99b8296d6934892a81ce5158.unity3d
+    assets:
+    - Assets/HotUpdateResources/UI/HONETi/buttons/top_bar_buttons/button_l.png
+    - Assets/HotUpdateResources/UI/HONETi/buttons/top_bar_buttons/button_m.png
+    - Assets/HotUpdateResources/UI/HONETi/buttons/top_bar_buttons/button_r.png
+  - name: 8754bb6cd64554508dd823bb3fdde600.unity3d
+    assets:
+    - Assets/HotUpdateResources/UI/HONETi/controls/scroll_bar/scroll_handle.png
+    - Assets/HotUpdateResources/UI/HONETi/controls/scroll_bar/scroll_handle_v.png
+  - name: 4ff79004846c100b7b7b8cdc76ae75a8.unity3d
+    assets:
+    - Assets/HotUpdateResources/UI/HONETi/controls/slider/slider_handle.png
+  - name: 58ef5e884d533b878a71c7a22d36c9c9.unity3d
+    assets:
+    - Assets/HotUpdateResources/UI/HONETi/controls/switch/switch_off.png
+    - Assets/HotUpdateResources/UI/HONETi/controls/switch/switch_off_text.png
+    - Assets/HotUpdateResources/UI/HONETi/controls/switch/switch_on.png
+    - Assets/HotUpdateResources/UI/HONETi/controls/switch/switch_on_text.png
+  - name: e606b743ae4212ea2976d17e10e9d20d.unity3d
+    assets:
+    - Assets/HotUpdateResources/UI/HONETi/controls/toggle/toggle_radio.png
+  - name: b0eace940408ea5017fc0a55f2ae6aae.unity3d
+    assets:
+    - Assets/HotUpdateResources/UI/HONETi/globe/globe_bg.png
+    - Assets/HotUpdateResources/UI/HONETi/globe/globe_fill.png
+  - name: ed07346addd01fc45e46a4401fef2608.unity3d
+    assets:
+    - Assets/HotUpdateResources/UI/HONETi/icons/128x128px/air.png
+    - Assets/HotUpdateResources/UI/HONETi/icons/128x128px/arrow_d.png
+    - Assets/HotUpdateResources/UI/HONETi/icons/128x128px/arrow_l.png
+    - Assets/HotUpdateResources/UI/HONETi/icons/128x128px/arrow_r.png
+    - Assets/HotUpdateResources/UI/HONETi/icons/128x128px/arrow_u.png
+    - Assets/HotUpdateResources/UI/HONETi/icons/128x128px/basket.png
+    - Assets/HotUpdateResources/UI/HONETi/icons/128x128px/bin.png
+    - Assets/HotUpdateResources/UI/HONETi/icons/128x128px/checkmark.png
+    - Assets/HotUpdateResources/UI/HONETi/icons/128x128px/chest.png
+    - Assets/HotUpdateResources/UI/HONETi/icons/128x128px/coins.png
+    - Assets/HotUpdateResources/UI/HONETi/icons/128x128px/cup.png
+    - Assets/HotUpdateResources/UI/HONETi/icons/128x128px/dots.png
+    - Assets/HotUpdateResources/UI/HONETi/icons/128x128px/drop.png
+    - Assets/HotUpdateResources/UI/HONETi/icons/128x128px/exclamation.png
+    - Assets/HotUpdateResources/UI/HONETi/icons/128x128px/flame.png
+    - Assets/HotUpdateResources/UI/HONETi/icons/128x128px/gem.png
+    - Assets/HotUpdateResources/UI/HONETi/icons/128x128px/heart.png
+    - Assets/HotUpdateResources/UI/HONETi/icons/128x128px/heart_plus.png
+    - Assets/HotUpdateResources/UI/HONETi/icons/128x128px/info.png
+    - Assets/HotUpdateResources/UI/HONETi/icons/128x128px/lightning.png
+    - Assets/HotUpdateResources/UI/HONETi/icons/128x128px/lock_01.png
+    - Assets/HotUpdateResources/UI/HONETi/icons/128x128px/lock_02.png
+    - Assets/HotUpdateResources/UI/HONETi/icons/128x128px/medal.png
+    - Assets/HotUpdateResources/UI/HONETi/icons/128x128px/menu.png
+    - Assets/HotUpdateResources/UI/HONETi/icons/128x128px/minus.png
+    - Assets/HotUpdateResources/UI/HONETi/icons/128x128px/pause.png
+    - Assets/HotUpdateResources/UI/HONETi/icons/128x128px/play.png
+    - Assets/HotUpdateResources/UI/HONETi/icons/128x128px/plus.png
+    - Assets/HotUpdateResources/UI/HONETi/icons/128x128px/repeat.png
+    - Assets/HotUpdateResources/UI/HONETi/icons/128x128px/settings.png
+    - Assets/HotUpdateResources/UI/HONETi/icons/128x128px/snow.png
+    - Assets/HotUpdateResources/UI/HONETi/icons/128x128px/speaker_low.png
+    - Assets/HotUpdateResources/UI/HONETi/icons/128x128px/stats.png
+    - Assets/HotUpdateResources/UI/HONETi/icons/128x128px/strength.png
+    - Assets/HotUpdateResources/UI/HONETi/icons/128x128px/surprise.png
+    - Assets/HotUpdateResources/UI/HONETi/icons/128x128px/swords.png
+    - Assets/HotUpdateResources/UI/HONETi/icons/128x128px/x.png
+  - name: aadccb7da80c313c4105eea4404b9883.unity3d
+    assets:
+    - Assets/HotUpdateResources/UI/HONETi/icons/256x256px/air.png
+    - Assets/HotUpdateResources/UI/HONETi/icons/256x256px/arrow_d.png
+    - Assets/HotUpdateResources/UI/HONETi/icons/256x256px/arrow_l.png
+    - Assets/HotUpdateResources/UI/HONETi/icons/256x256px/arrow_r.png
+    - Assets/HotUpdateResources/UI/HONETi/icons/256x256px/arrow_u.png
+    - Assets/HotUpdateResources/UI/HONETi/icons/256x256px/basket.png
+    - Assets/HotUpdateResources/UI/HONETi/icons/256x256px/bin.png
+    - Assets/HotUpdateResources/UI/HONETi/icons/256x256px/checkmark.png
+    - Assets/HotUpdateResources/UI/HONETi/icons/256x256px/chest.png
+    - Assets/HotUpdateResources/UI/HONETi/icons/256x256px/coin_plus.png
+    - Assets/HotUpdateResources/UI/HONETi/icons/256x256px/coins.png
+    - Assets/HotUpdateResources/UI/HONETi/icons/256x256px/cup.png
+    - Assets/HotUpdateResources/UI/HONETi/icons/256x256px/dots.png
+    - Assets/HotUpdateResources/UI/HONETi/icons/256x256px/drop.png
+    - Assets/HotUpdateResources/UI/HONETi/icons/256x256px/exclamation.png
+    - Assets/HotUpdateResources/UI/HONETi/icons/256x256px/flame.png
+    - Assets/HotUpdateResources/UI/HONETi/icons/256x256px/gem.png
+    - Assets/HotUpdateResources/UI/HONETi/icons/256x256px/heart.png
+    - Assets/HotUpdateResources/UI/HONETi/icons/256x256px/heart_plus.png
+    - Assets/HotUpdateResources/UI/HONETi/icons/256x256px/help.png
+    - Assets/HotUpdateResources/UI/HONETi/icons/256x256px/home.png
+    - Assets/HotUpdateResources/UI/HONETi/icons/256x256px/info.png
+    - Assets/HotUpdateResources/UI/HONETi/icons/256x256px/leaf.png
+    - Assets/HotUpdateResources/UI/HONETi/icons/256x256px/lightning.png
+    - Assets/HotUpdateResources/UI/HONETi/icons/256x256px/lock_01.png
+    - Assets/HotUpdateResources/UI/HONETi/icons/256x256px/lock_02.png
+    - Assets/HotUpdateResources/UI/HONETi/icons/256x256px/medal.png
+    - Assets/HotUpdateResources/UI/HONETi/icons/256x256px/menu.png
+    - Assets/HotUpdateResources/UI/HONETi/icons/256x256px/minus.png
+    - Assets/HotUpdateResources/UI/HONETi/icons/256x256px/pause.png
+    - Assets/HotUpdateResources/UI/HONETi/icons/256x256px/play.png
+    - Assets/HotUpdateResources/UI/HONETi/icons/256x256px/plus.png
+    - Assets/HotUpdateResources/UI/HONETi/icons/256x256px/repeat.png
+    - Assets/HotUpdateResources/UI/HONETi/icons/256x256px/settings.png
+    - Assets/HotUpdateResources/UI/HONETi/icons/256x256px/snow.png
+    - Assets/HotUpdateResources/UI/HONETi/icons/256x256px/speaker_high.png
+    - Assets/HotUpdateResources/UI/HONETi/icons/256x256px/speaker_low.png
+    - Assets/HotUpdateResources/UI/HONETi/icons/256x256px/speaker_mute.png
+    - Assets/HotUpdateResources/UI/HONETi/icons/256x256px/star.png
+    - Assets/HotUpdateResources/UI/HONETi/icons/256x256px/stats.png
+    - Assets/HotUpdateResources/UI/HONETi/icons/256x256px/strength.png
+    - Assets/HotUpdateResources/UI/HONETi/icons/256x256px/suprise.png
+    - Assets/HotUpdateResources/UI/HONETi/icons/256x256px/swords.png
+    - Assets/HotUpdateResources/UI/HONETi/icons/256x256px/user.png
+    - Assets/HotUpdateResources/UI/HONETi/icons/256x256px/x.png
+  - name: 6dfd9be4ad103945910a07c10295cbb2.unity3d
+    assets:
+    - Assets/HotUpdateResources/UI/HONETi/icons/32x32px/air.png
+    - Assets/HotUpdateResources/UI/HONETi/icons/32x32px/arrow_d.png
+    - Assets/HotUpdateResources/UI/HONETi/icons/32x32px/arrow_l.png
+    - Assets/HotUpdateResources/UI/HONETi/icons/32x32px/arrow_r.png
+    - Assets/HotUpdateResources/UI/HONETi/icons/32x32px/arrow_u.png
+    - Assets/HotUpdateResources/UI/HONETi/icons/32x32px/basket.png
+    - Assets/HotUpdateResources/UI/HONETi/icons/32x32px/bin.png
+    - Assets/HotUpdateResources/UI/HONETi/icons/32x32px/checkmark.png
+    - Assets/HotUpdateResources/UI/HONETi/icons/32x32px/chest.png
+    - Assets/HotUpdateResources/UI/HONETi/icons/32x32px/coin_plus.png
+    - Assets/HotUpdateResources/UI/HONETi/icons/32x32px/coins.png
+    - Assets/HotUpdateResources/UI/HONETi/icons/32x32px/cup.png
+    - Assets/HotUpdateResources/UI/HONETi/icons/32x32px/dots.png
+    - Assets/HotUpdateResources/UI/HONETi/icons/32x32px/drop.png
+    - Assets/HotUpdateResources/UI/HONETi/icons/32x32px/exclamation.png
+    - Assets/HotUpdateResources/UI/HONETi/icons/32x32px/flame.png
+    - Assets/HotUpdateResources/UI/HONETi/icons/32x32px/gem.png
+    - Assets/HotUpdateResources/UI/HONETi/icons/32x32px/heart.png
+    - Assets/HotUpdateResources/UI/HONETi/icons/32x32px/heart_plus.png
+    - Assets/HotUpdateResources/UI/HONETi/icons/32x32px/help.png
+    - Assets/HotUpdateResources/UI/HONETi/icons/32x32px/home.png
+    - Assets/HotUpdateResources/UI/HONETi/icons/32x32px/info.png
+    - Assets/HotUpdateResources/UI/HONETi/icons/32x32px/leaf.png
+    - Assets/HotUpdateResources/UI/HONETi/icons/32x32px/lightning.png
+    - Assets/HotUpdateResources/UI/HONETi/icons/32x32px/lock_01.png
+    - Assets/HotUpdateResources/UI/HONETi/icons/32x32px/lock_02.png
+    - Assets/HotUpdateResources/UI/HONETi/icons/32x32px/medal.png
+    - Assets/HotUpdateResources/UI/HONETi/icons/32x32px/menu.png
+    - Assets/HotUpdateResources/UI/HONETi/icons/32x32px/minus.png
+    - Assets/HotUpdateResources/UI/HONETi/icons/32x32px/pause.png
+    - Assets/HotUpdateResources/UI/HONETi/icons/32x32px/play.png
+    - Assets/HotUpdateResources/UI/HONETi/icons/32x32px/plus.png
+    - Assets/HotUpdateResources/UI/HONETi/icons/32x32px/repeat.png
+    - Assets/HotUpdateResources/UI/HONETi/icons/32x32px/settings.png
+    - Assets/HotUpdateResources/UI/HONETi/icons/32x32px/snow.png
+    - Assets/HotUpdateResources/UI/HONETi/icons/32x32px/speaker_high.png
+    - Assets/HotUpdateResources/UI/HONETi/icons/32x32px/speaker_low.png
+    - Assets/HotUpdateResources/UI/HONETi/icons/32x32px/speaker_mute.png
+    - Assets/HotUpdateResources/UI/HONETi/icons/32x32px/star.png
+    - Assets/HotUpdateResources/UI/HONETi/icons/32x32px/stats.png
+    - Assets/HotUpdateResources/UI/HONETi/icons/32x32px/strength.png
+    - Assets/HotUpdateResources/UI/HONETi/icons/32x32px/surprise.png
+    - Assets/HotUpdateResources/UI/HONETi/icons/32x32px/swords.png
+    - Assets/HotUpdateResources/UI/HONETi/icons/32x32px/user.png
+    - Assets/HotUpdateResources/UI/HONETi/icons/32x32px/x.png
+  - name: fa1e65f4283d521087bd003a4a996871.unity3d
+    assets:
+    - Assets/HotUpdateResources/UI/HONETi/icons/64x64px/air.png
+    - Assets/HotUpdateResources/UI/HONETi/icons/64x64px/arrow_d.png
+    - Assets/HotUpdateResources/UI/HONETi/icons/64x64px/arrow_l.png
+    - Assets/HotUpdateResources/UI/HONETi/icons/64x64px/arrow_r.png
+    - Assets/HotUpdateResources/UI/HONETi/icons/64x64px/arrow_u.png
+    - Assets/HotUpdateResources/UI/HONETi/icons/64x64px/basket.png
+    - Assets/HotUpdateResources/UI/HONETi/icons/64x64px/bin.png
+    - Assets/HotUpdateResources/UI/HONETi/icons/64x64px/checkmark.png
+    - Assets/HotUpdateResources/UI/HONETi/icons/64x64px/chest.png
+    - Assets/HotUpdateResources/UI/HONETi/icons/64x64px/coin_plus.png
+    - Assets/HotUpdateResources/UI/HONETi/icons/64x64px/cup.png
+    - Assets/HotUpdateResources/UI/HONETi/icons/64x64px/dots.png
+    - Assets/HotUpdateResources/UI/HONETi/icons/64x64px/drop.png
+    - Assets/HotUpdateResources/UI/HONETi/icons/64x64px/exclamation.png
+    - Assets/HotUpdateResources/UI/HONETi/icons/64x64px/flame.png
+    - Assets/HotUpdateResources/UI/HONETi/icons/64x64px/gem.png
+    - Assets/HotUpdateResources/UI/HONETi/icons/64x64px/heart.png
+    - Assets/HotUpdateResources/UI/HONETi/icons/64x64px/heart_plus.png
+    - Assets/HotUpdateResources/UI/HONETi/icons/64x64px/help.png
+    - Assets/HotUpdateResources/UI/HONETi/icons/64x64px/home.png
+    - Assets/HotUpdateResources/UI/HONETi/icons/64x64px/info.png
+    - Assets/HotUpdateResources/UI/HONETi/icons/64x64px/leaf.png
+    - Assets/HotUpdateResources/UI/HONETi/icons/64x64px/lightning.png
+    - Assets/HotUpdateResources/UI/HONETi/icons/64x64px/lock_02.png
+    - Assets/HotUpdateResources/UI/HONETi/icons/64x64px/medal.png
+    - Assets/HotUpdateResources/UI/HONETi/icons/64x64px/menu.png
+    - Assets/HotUpdateResources/UI/HONETi/icons/64x64px/minus.png
+    - Assets/HotUpdateResources/UI/HONETi/icons/64x64px/pause.png
+    - Assets/HotUpdateResources/UI/HONETi/icons/64x64px/play.png
+    - Assets/HotUpdateResources/UI/HONETi/icons/64x64px/plus.png
+    - Assets/HotUpdateResources/UI/HONETi/icons/64x64px/repeat.png
+    - Assets/HotUpdateResources/UI/HONETi/icons/64x64px/settings.png
+    - Assets/HotUpdateResources/UI/HONETi/icons/64x64px/snow.png
+    - Assets/HotUpdateResources/UI/HONETi/icons/64x64px/speaker_high.png
+    - Assets/HotUpdateResources/UI/HONETi/icons/64x64px/speaker_low.png
+    - Assets/HotUpdateResources/UI/HONETi/icons/64x64px/speaker_mute.png
+    - Assets/HotUpdateResources/UI/HONETi/icons/64x64px/star.png
+    - Assets/HotUpdateResources/UI/HONETi/icons/64x64px/stats.png
+    - Assets/HotUpdateResources/UI/HONETi/icons/64x64px/strength.png
+    - Assets/HotUpdateResources/UI/HONETi/icons/64x64px/surprise.png
+    - Assets/HotUpdateResources/UI/HONETi/icons/64x64px/swords.png
+    - Assets/HotUpdateResources/UI/HONETi/icons/64x64px/user.png
+    - Assets/HotUpdateResources/UI/HONETi/icons/64x64px/x.png
+  - name: f5a0b51f4b850bdab88bc1789337d9f8.unity3d
+    assets:
+    - Assets/HotUpdateResources/UI/HONETi/items/128x128px/Untitled-1_21.png
+    - Assets/HotUpdateResources/UI/HONETi/items/128x128px/Untitled-1_22.png
+    - Assets/HotUpdateResources/UI/HONETi/items/128x128px/Untitled-1_23.png
+    - Assets/HotUpdateResources/UI/HONETi/items/128x128px/ammunition.png
+    - Assets/HotUpdateResources/UI/HONETi/items/128x128px/arrows.png
+    - Assets/HotUpdateResources/UI/HONETi/items/128x128px/ax.png
+    - Assets/HotUpdateResources/UI/HONETi/items/128x128px/ax_double.png
+    - Assets/HotUpdateResources/UI/HONETi/items/128x128px/backpack.png
+    - Assets/HotUpdateResources/UI/HONETi/items/128x128px/bones.png
+    - Assets/HotUpdateResources/UI/HONETi/items/128x128px/boots.png
+    - Assets/HotUpdateResources/UI/HONETi/items/128x128px/bow.png
+    - Assets/HotUpdateResources/UI/HONETi/items/128x128px/chest.png
+    - Assets/HotUpdateResources/UI/HONETi/items/128x128px/clock.png
+    - Assets/HotUpdateResources/UI/HONETi/items/128x128px/dog_tag.png
+    - Assets/HotUpdateResources/UI/HONETi/items/128x128px/dynamite.png
+    - Assets/HotUpdateResources/UI/HONETi/items/128x128px/flag.png
+    - Assets/HotUpdateResources/UI/HONETi/items/128x128px/gloves.png
+    - Assets/HotUpdateResources/UI/HONETi/items/128x128px/goggles.png
+    - Assets/HotUpdateResources/UI/HONETi/items/128x128px/gun.png
+    - Assets/HotUpdateResources/UI/HONETi/items/128x128px/hammer.png
+    - Assets/HotUpdateResources/UI/HONETi/items/128x128px/helmet.png
+    - Assets/HotUpdateResources/UI/HONETi/items/128x128px/key.png
+    - Assets/HotUpdateResources/UI/HONETi/items/128x128px/magnet.png
+    - Assets/HotUpdateResources/UI/HONETi/items/128x128px/pill.png
+    - Assets/HotUpdateResources/UI/HONETi/items/128x128px/potion_01.png
+    - Assets/HotUpdateResources/UI/HONETi/items/128x128px/potion_02.png
+    - Assets/HotUpdateResources/UI/HONETi/items/128x128px/potion_03.png
+    - Assets/HotUpdateResources/UI/HONETi/items/128x128px/potion_04.png
+    - Assets/HotUpdateResources/UI/HONETi/items/128x128px/potion_05.png
+    - Assets/HotUpdateResources/UI/HONETi/items/128x128px/potion_06.png
+    - Assets/HotUpdateResources/UI/HONETi/items/128x128px/potion_air.png
+    - Assets/HotUpdateResources/UI/HONETi/items/128x128px/potion_flame.png
+    - Assets/HotUpdateResources/UI/HONETi/items/128x128px/potion_life.png
+    - Assets/HotUpdateResources/UI/HONETi/items/128x128px/potion_lightning.png
+    - Assets/HotUpdateResources/UI/HONETi/items/128x128px/potion_shield.png
+    - Assets/HotUpdateResources/UI/HONETi/items/128x128px/potion_snow.png
+    - Assets/HotUpdateResources/UI/HONETi/items/128x128px/potion_strength.png
+    - Assets/HotUpdateResources/UI/HONETi/items/128x128px/potion_water.png
+    - Assets/HotUpdateResources/UI/HONETi/items/128x128px/quiver.png
+    - Assets/HotUpdateResources/UI/HONETi/items/128x128px/radio.png
+    - Assets/HotUpdateResources/UI/HONETi/items/128x128px/shield_01.png
+    - Assets/HotUpdateResources/UI/HONETi/items/128x128px/shield_02.png
+    - Assets/HotUpdateResources/UI/HONETi/items/128x128px/shield_air.png
+    - Assets/HotUpdateResources/UI/HONETi/items/128x128px/shield_fire.png
+    - Assets/HotUpdateResources/UI/HONETi/items/128x128px/shield_leaf.png
+    - Assets/HotUpdateResources/UI/HONETi/items/128x128px/shield_lightning.png
+    - Assets/HotUpdateResources/UI/HONETi/items/128x128px/shield_snow.png
+    - Assets/HotUpdateResources/UI/HONETi/items/128x128px/shield_water.png
+    - Assets/HotUpdateResources/UI/HONETi/items/128x128px/skull.png
+    - Assets/HotUpdateResources/UI/HONETi/items/128x128px/slingshot.png
+    - Assets/HotUpdateResources/UI/HONETi/items/128x128px/slingshot_ammunition.png
+    - Assets/HotUpdateResources/UI/HONETi/items/128x128px/sword.png
+  - name: 0d74160a27bf8271b34804a5ae2fec10.unity3d
+    assets:
+    - Assets/HotUpdateResources/UI/HONETi/items/256x256px/ammunition.png
+    - Assets/HotUpdateResources/UI/HONETi/items/256x256px/arrows.png
+    - Assets/HotUpdateResources/UI/HONETi/items/256x256px/ax.png
+    - Assets/HotUpdateResources/UI/HONETi/items/256x256px/ax_double.png
+    - Assets/HotUpdateResources/UI/HONETi/items/256x256px/backpack.png
+    - Assets/HotUpdateResources/UI/HONETi/items/256x256px/bones.png
+    - Assets/HotUpdateResources/UI/HONETi/items/256x256px/boots.png
+    - Assets/HotUpdateResources/UI/HONETi/items/256x256px/bow.png
+    - Assets/HotUpdateResources/UI/HONETi/items/256x256px/chest.png
+    - Assets/HotUpdateResources/UI/HONETi/items/256x256px/clock.png
+    - Assets/HotUpdateResources/UI/HONETi/items/256x256px/dog_tag.png
+    - Assets/HotUpdateResources/UI/HONETi/items/256x256px/dynamite.png
+    - Assets/HotUpdateResources/UI/HONETi/items/256x256px/gloves.png
+    - Assets/HotUpdateResources/UI/HONETi/items/256x256px/goggles.png
+    - Assets/HotUpdateResources/UI/HONETi/items/256x256px/gun.png
+    - Assets/HotUpdateResources/UI/HONETi/items/256x256px/hammer.png
+    - Assets/HotUpdateResources/UI/HONETi/items/256x256px/helmet.png
+    - Assets/HotUpdateResources/UI/HONETi/items/256x256px/key.png
+    - Assets/HotUpdateResources/UI/HONETi/items/256x256px/magnet.png
+    - Assets/HotUpdateResources/UI/HONETi/items/256x256px/pill.png
+    - Assets/HotUpdateResources/UI/HONETi/items/256x256px/potion_01.png
+    - Assets/HotUpdateResources/UI/HONETi/items/256x256px/potion_02.png
+    - Assets/HotUpdateResources/UI/HONETi/items/256x256px/potion_03.png
+    - Assets/HotUpdateResources/UI/HONETi/items/256x256px/potion_04.png
+    - Assets/HotUpdateResources/UI/HONETi/items/256x256px/potion_05.png
+    - Assets/HotUpdateResources/UI/HONETi/items/256x256px/potion_06.png
+    - Assets/HotUpdateResources/UI/HONETi/items/256x256px/potion_air.png
+    - Assets/HotUpdateResources/UI/HONETi/items/256x256px/potion_flame.png
+    - Assets/HotUpdateResources/UI/HONETi/items/256x256px/potion_life.png
+    - Assets/HotUpdateResources/UI/HONETi/items/256x256px/potion_lightning.png
+    - Assets/HotUpdateResources/UI/HONETi/items/256x256px/potion_shield.png
+    - Assets/HotUpdateResources/UI/HONETi/items/256x256px/potion_snow.png
+    - Assets/HotUpdateResources/UI/HONETi/items/256x256px/potion_strength.png
+    - Assets/HotUpdateResources/UI/HONETi/items/256x256px/potion_water.png
+    - Assets/HotUpdateResources/UI/HONETi/items/256x256px/quiver.png
+    - Assets/HotUpdateResources/UI/HONETi/items/256x256px/radio.png
+    - Assets/HotUpdateResources/UI/HONETi/items/256x256px/shield_01.png
+    - Assets/HotUpdateResources/UI/HONETi/items/256x256px/shield_02.png
+    - Assets/HotUpdateResources/UI/HONETi/items/256x256px/shield_air.png
+    - Assets/HotUpdateResources/UI/HONETi/items/256x256px/shield_fire.png
+    - Assets/HotUpdateResources/UI/HONETi/items/256x256px/shield_leaf.png
+    - Assets/HotUpdateResources/UI/HONETi/items/256x256px/shield_lightning.png
+    - Assets/HotUpdateResources/UI/HONETi/items/256x256px/shield_snow.png
+    - Assets/HotUpdateResources/UI/HONETi/items/256x256px/shield_water.png
+    - Assets/HotUpdateResources/UI/HONETi/items/256x256px/skull.png
+    - Assets/HotUpdateResources/UI/HONETi/items/256x256px/slingshot.png
+    - Assets/HotUpdateResources/UI/HONETi/items/256x256px/slingshot_ammunition.png
+    - Assets/HotUpdateResources/UI/HONETi/items/256x256px/sword.png
+  - name: 523f3420ee7c70b9f3744323efe56252.unity3d
+    assets:
+    - Assets/HotUpdateResources/UI/HONETi/items/32x32px/ammunition.png
+    - Assets/HotUpdateResources/UI/HONETi/items/32x32px/arrows.png
+    - Assets/HotUpdateResources/UI/HONETi/items/32x32px/ax.png
+    - Assets/HotUpdateResources/UI/HONETi/items/32x32px/ax_double.png
+    - Assets/HotUpdateResources/UI/HONETi/items/32x32px/backpack.png
+    - Assets/HotUpdateResources/UI/HONETi/items/32x32px/bones.png
+    - Assets/HotUpdateResources/UI/HONETi/items/32x32px/boots.png
+    - Assets/HotUpdateResources/UI/HONETi/items/32x32px/bow.png
+    - Assets/HotUpdateResources/UI/HONETi/items/32x32px/chest.png
+    - Assets/HotUpdateResources/UI/HONETi/items/32x32px/clock.png
+    - Assets/HotUpdateResources/UI/HONETi/items/32x32px/dog_tag.png
+    - Assets/HotUpdateResources/UI/HONETi/items/32x32px/dynamite.png
+    - Assets/HotUpdateResources/UI/HONETi/items/32x32px/flag.png
+    - Assets/HotUpdateResources/UI/HONETi/items/32x32px/gloves.png
+    - Assets/HotUpdateResources/UI/HONETi/items/32x32px/goggles.png
+    - Assets/HotUpdateResources/UI/HONETi/items/32x32px/gun.png
+    - Assets/HotUpdateResources/UI/HONETi/items/32x32px/hammer.png
+    - Assets/HotUpdateResources/UI/HONETi/items/32x32px/helmet.png
+    - Assets/HotUpdateResources/UI/HONETi/items/32x32px/key.png
+    - Assets/HotUpdateResources/UI/HONETi/items/32x32px/magnet.png
+    - Assets/HotUpdateResources/UI/HONETi/items/32x32px/pill.png
+    - Assets/HotUpdateResources/UI/HONETi/items/32x32px/potion_01.png
+    - Assets/HotUpdateResources/UI/HONETi/items/32x32px/potion_02.png
+    - Assets/HotUpdateResources/UI/HONETi/items/32x32px/potion_03.png
+    - Assets/HotUpdateResources/UI/HONETi/items/32x32px/potion_04.png
+    - Assets/HotUpdateResources/UI/HONETi/items/32x32px/potion_05.png
+    - Assets/HotUpdateResources/UI/HONETi/items/32x32px/potion_06.png
+    - Assets/HotUpdateResources/UI/HONETi/items/32x32px/potion_air.png
+    - Assets/HotUpdateResources/UI/HONETi/items/32x32px/potion_flame.png
+    - Assets/HotUpdateResources/UI/HONETi/items/32x32px/potion_life.png
+    - Assets/HotUpdateResources/UI/HONETi/items/32x32px/potion_lightning.png
+    - Assets/HotUpdateResources/UI/HONETi/items/32x32px/potion_shield.png
+    - Assets/HotUpdateResources/UI/HONETi/items/32x32px/potion_snow.png
+    - Assets/HotUpdateResources/UI/HONETi/items/32x32px/potion_strength.png
+    - Assets/HotUpdateResources/UI/HONETi/items/32x32px/potion_water.png
+    - Assets/HotUpdateResources/UI/HONETi/items/32x32px/quiver.png
+    - Assets/HotUpdateResources/UI/HONETi/items/32x32px/radio.png
+    - Assets/HotUpdateResources/UI/HONETi/items/32x32px/shield_01.png
+    - Assets/HotUpdateResources/UI/HONETi/items/32x32px/shield_02.png
+    - Assets/HotUpdateResources/UI/HONETi/items/32x32px/shield_air.png
+    - Assets/HotUpdateResources/UI/HONETi/items/32x32px/shield_fire.png
+    - Assets/HotUpdateResources/UI/HONETi/items/32x32px/shield_leaf.png
+    - Assets/HotUpdateResources/UI/HONETi/items/32x32px/shield_lightning.png
+    - Assets/HotUpdateResources/UI/HONETi/items/32x32px/shield_snow.png
+    - Assets/HotUpdateResources/UI/HONETi/items/32x32px/shield_water.png
+    - Assets/HotUpdateResources/UI/HONETi/items/32x32px/skull.png
+    - Assets/HotUpdateResources/UI/HONETi/items/32x32px/slingshot.png
+    - Assets/HotUpdateResources/UI/HONETi/items/32x32px/slingshot_ammunition.png
+    - Assets/HotUpdateResources/UI/HONETi/items/32x32px/sword.png
+  - name: ce4b13f954ae192361bb8874a7883380.unity3d
+    assets:
+    - Assets/HotUpdateResources/UI/HONETi/items/64x64px/ammunition.png
+    - Assets/HotUpdateResources/UI/HONETi/items/64x64px/arrows.png
+    - Assets/HotUpdateResources/UI/HONETi/items/64x64px/ax.png
+    - Assets/HotUpdateResources/UI/HONETi/items/64x64px/ax_double.png
+    - Assets/HotUpdateResources/UI/HONETi/items/64x64px/backpack.png
+    - Assets/HotUpdateResources/UI/HONETi/items/64x64px/bones.png
+    - Assets/HotUpdateResources/UI/HONETi/items/64x64px/boots.png
+    - Assets/HotUpdateResources/UI/HONETi/items/64x64px/bow.png
+    - Assets/HotUpdateResources/UI/HONETi/items/64x64px/chest.png
+    - Assets/HotUpdateResources/UI/HONETi/items/64x64px/clock.png
+    - Assets/HotUpdateResources/UI/HONETi/items/64x64px/dog_tag.png
+    - Assets/HotUpdateResources/UI/HONETi/items/64x64px/dynamite.png
+    - Assets/HotUpdateResources/UI/HONETi/items/64x64px/flag.png
+    - Assets/HotUpdateResources/UI/HONETi/items/64x64px/gloves.png
+    - Assets/HotUpdateResources/UI/HONETi/items/64x64px/goggles.png
+    - Assets/HotUpdateResources/UI/HONETi/items/64x64px/gun.png
+    - Assets/HotUpdateResources/UI/HONETi/items/64x64px/hammer.png
+    - Assets/HotUpdateResources/UI/HONETi/items/64x64px/helmet.png
+    - Assets/HotUpdateResources/UI/HONETi/items/64x64px/key.png
+    - Assets/HotUpdateResources/UI/HONETi/items/64x64px/magnet.png
+    - Assets/HotUpdateResources/UI/HONETi/items/64x64px/pill.png
+    - Assets/HotUpdateResources/UI/HONETi/items/64x64px/potion_01.png
+    - Assets/HotUpdateResources/UI/HONETi/items/64x64px/potion_02.png
+    - Assets/HotUpdateResources/UI/HONETi/items/64x64px/potion_03.png
+    - Assets/HotUpdateResources/UI/HONETi/items/64x64px/potion_04.png
+    - Assets/HotUpdateResources/UI/HONETi/items/64x64px/potion_05.png
+    - Assets/HotUpdateResources/UI/HONETi/items/64x64px/potion_06.png
+    - Assets/HotUpdateResources/UI/HONETi/items/64x64px/potion_air.png
+    - Assets/HotUpdateResources/UI/HONETi/items/64x64px/potion_flame.png
+    - Assets/HotUpdateResources/UI/HONETi/items/64x64px/potion_life.png
+    - Assets/HotUpdateResources/UI/HONETi/items/64x64px/potion_lightning.png
+    - Assets/HotUpdateResources/UI/HONETi/items/64x64px/potion_shield.png
+    - Assets/HotUpdateResources/UI/HONETi/items/64x64px/potion_snow.png
+    - Assets/HotUpdateResources/UI/HONETi/items/64x64px/potion_strength.png
+    - Assets/HotUpdateResources/UI/HONETi/items/64x64px/potion_water.png
+    - Assets/HotUpdateResources/UI/HONETi/items/64x64px/quiver.png
+    - Assets/HotUpdateResources/UI/HONETi/items/64x64px/radio.png
+    - Assets/HotUpdateResources/UI/HONETi/items/64x64px/shield_01.png
+    - Assets/HotUpdateResources/UI/HONETi/items/64x64px/shield_02.png
+    - Assets/HotUpdateResources/UI/HONETi/items/64x64px/shield_air.png
+    - Assets/HotUpdateResources/UI/HONETi/items/64x64px/shield_fire.png
+    - Assets/HotUpdateResources/UI/HONETi/items/64x64px/shield_leaf.png
+    - Assets/HotUpdateResources/UI/HONETi/items/64x64px/shield_lightning.png
+    - Assets/HotUpdateResources/UI/HONETi/items/64x64px/shield_snow.png
+    - Assets/HotUpdateResources/UI/HONETi/items/64x64px/shield_water.png
+    - Assets/HotUpdateResources/UI/HONETi/items/64x64px/skull.png
+    - Assets/HotUpdateResources/UI/HONETi/items/64x64px/slingshot.png
+    - Assets/HotUpdateResources/UI/HONETi/items/64x64px/slingshot_ammunition.png
+    - Assets/HotUpdateResources/UI/HONETi/items/64x64px/sword.png
+  - name: 68855be8bf84934712bd7f59f93e54cc.unity3d
+    assets:
+    - Assets/HotUpdateResources/UI/HONETi/levels/levels_star.png
+    - Assets/HotUpdateResources/UI/HONETi/levels/skull_n_bones.png
+  - name: 8175ff1e2f781c4edb03501655593530.unity3d
+    assets:
+    - Assets/HotUpdateResources/UI/HONETi/panels/avatar_s.png
+    - Assets/HotUpdateResources/UI/HONETi/panels/bottom_bar_bg.png
+    - Assets/HotUpdateResources/UI/HONETi/panels/chat_cloud_l.png
+    - Assets/HotUpdateResources/UI/HONETi/panels/chat_cloud_r.png
+    - Assets/HotUpdateResources/UI/HONETi/panels/corners_bg.png
+    - Assets/HotUpdateResources/UI/HONETi/panels/corners_stroke_bg.png
+    - Assets/HotUpdateResources/UI/HONETi/panels/input_field.png
+    - Assets/HotUpdateResources/UI/HONETi/panels/input_field_filled.png
+    - Assets/HotUpdateResources/UI/HONETi/panels/rectangle_bg.png
+    - Assets/HotUpdateResources/UI/HONETi/panels/rectangle_stroke_bg.png
+    - Assets/HotUpdateResources/UI/HONETi/panels/section_bg_corner.png
+    - Assets/HotUpdateResources/UI/HONETi/panels/side_bar.png
+    - Assets/HotUpdateResources/UI/HONETi/panels/title_bg.png
+    - Assets/HotUpdateResources/UI/HONETi/panels/top_bar_bg.png
+    - Assets/HotUpdateResources/UI/HONETi/panels/top_bar_bg_white.png
+    - Assets/HotUpdateResources/UI/HONETi/panels/window_bg.png
+    - Assets/HotUpdateResources/UI/HONETi/panels/window_stroke.png
+    - Assets/HotUpdateResources/UI/HONETi/panels/window_x.png
+  - name: a2c4c949736272ee722bf5d504d16402.unity3d
+    assets:
+    - Assets/HotUpdateResources/UI/HONETi/state_bars/progress_bar_fill.png
+    - Assets/HotUpdateResources/UI/HONETi/state_bars/state_bar.png
+    - Assets/HotUpdateResources/UI/HONETi/state_bars/state_bar_r.png
+  - name: 51cb3bc3f3fcf3763518ab86c35b1f2a.unity3d
+    assets:
+    - Assets/HotUpdateResources/UI/Sprites/cert.png
+    - Assets/HotUpdateResources/UI/Sprites/cert_frag.png
+    - Assets/HotUpdateResources/UI/Sprites/coin.png
+    - Assets/HotUpdateResources/UI/Sprites/coin_plus.png
+    - Assets/HotUpdateResources/UI/Sprites/flag.png
+    - Assets/HotUpdateResources/UI/Sprites/home.png
+    - Assets/HotUpdateResources/UI/Sprites/off.png
+    - Assets/HotUpdateResources/UI/Sprites/on.png
+    - Assets/HotUpdateResources/UI/Sprites/people.png
+    - Assets/HotUpdateResources/UI/Sprites/speaker_high.png
+    - Assets/HotUpdateResources/UI/Sprites/speaker_mute.png
+    - Assets/HotUpdateResources/UI/Sprites/star.png
+    - Assets/HotUpdateResources/UI/Sprites/thief.png
+    - Assets/HotUpdateResources/UI/Sprites/unknown.png
+    - Assets/HotUpdateResources/UI/Sprites/zhi.png
+    - Assets/HotUpdateResources/UI/Sprites/zhu.png
+  - name: 7d5951ecb315719f03f6a6f3a0a7b6b4.unity3d
+    assets:
+    - Assets/HotUpdateResources/UI/Textures/btn.png
+    - Assets/HotUpdateResources/UI/Textures/caidai.png
+    - Assets/HotUpdateResources/UI/Textures/close.png
+    - Assets/HotUpdateResources/UI/Textures/frame.png
+    - Assets/HotUpdateResources/UI/Textures/head.png
+    - Assets/HotUpdateResources/UI/Textures/line.png
+  - name: ecf90fcdf6065e8c0f3390728b5d6451.unity3d
+    assets:
+    - Assets/HotUpdateResources/Controller/Animations/Panels/Award/GetAward.anim
+  - name: 6e872f262144fcc61ce067d5b2f9d8f8.unity3d
+    assets:
+    - Assets/HotUpdateResources/Controller/Animations/Effects/Fade/Fade.anim
+  - name: b495ae307f0481db4ed8385c4973967b.unity3d
+    assets:
+    - Assets/HotUpdateResources/Controller/Animations/Red/Red.anim
+  - name: 6ede3a887dbfd8efd66974eca6b74e03.unity3d
+    assets:
+    - Assets/HotUpdateResources/Controller/Animations/Effects/Spin/Spin.anim

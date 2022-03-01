@@ -1,0 +1,50 @@
+[
+  {
+    "task_target": "claim_cert",
+    "task_fulltext": "欢迎来到本游戏，请领取您的产业资格证开始游戏旅途吧~"
+  },
+  {
+    "task_target": "unlock_property",
+    "task_fulltext": "请前往物品栏使用产业资格证以解锁您的第一个产业"
+  },
+  {
+    "task_target": "build_property",
+    "task_fulltext": "恭喜你，想必你已经解锁您的第一个产业了，那么是时候去产业园建造了"
+  },
+  {
+    "task_target": "upgrade_property",
+    "task_fulltext": "产业不升级，挣不到大钱"
+  },
+  {
+    "task_target": "employ_property",
+    "task_fulltext": "产业不雇员，钱越挣越少"
+  },
+  {
+    "task_target": "build_type_0",
+    "task_fulltext": "民以食为天，餐厅企业固不可缺"
+  },
+  {
+    "task_target": "build_type_1",
+    "task_fulltext": "衣食住行，汽车已经变成了人们主要依赖的交通工具"
+  },
+  {
+    "task_target": "build_type_2",
+    "task_fulltext": "计算机科技公司，也就是人们熟知的IT行业，给这个世纪带来了太多便利"
+  },
+  {
+    "task_target": "earn",
+    "task_fulltext": "死了都要肝，996、007是资本家的新口号，赶紧赚他个小目标吧~"
+  },
+  {
+    "task_target": "ads",
+    "task_fulltext": "作者需要吃饭"
+  },
+  {
+    "task_target": "upstage_property",
+    "task_fulltext": "产业进阶后，可以增加收益，增加等级上限和雇员上限"
+  },
+  {
+    "task_target": "catch_thief",
+    "task_fulltext": "据说小偷身上藏有重宝哦~"
+  }
+]

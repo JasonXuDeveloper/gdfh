@@ -1,0 +1,34 @@
+[
+  {
+    "id": "coin",
+    "name": "金币",
+    "icon": "coin",
+    "desc": "金币，人人都爱的货币",
+    "sort": 0,
+    "canUse": false
+  },
+  {
+    "id": "cert",
+    "name": "产业资格证",
+    "icon": "cert",
+    "desc": "凭借此证可以获得随机产业的经营权",
+    "sort": 1,
+    "canUse": true
+  },
+  {
+    "id": "coin_plus",
+    "name": "金币制造机",
+    "icon": "coin_plus",
+    "desc": "人人都爱的金币制造机，\n用了可能会获得额外金币，\n当然也可能被扣金币哦~",
+    "sort": 2,
+    "canUse": true
+  },
+  {
+    "id": "cert_frag",
+    "name": "基础产业碎片",
+    "icon": "cert_frag",
+    "desc": "集齐15个可以合成基础产业自选（合成系统预计于12月17日左右开放）",
+    "sort": 3,
+    "canUse": false
+  }
+]
